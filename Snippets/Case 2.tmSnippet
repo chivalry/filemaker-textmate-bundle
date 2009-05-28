@@ -3,13 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>  ${1:test};
-  ${2:result}${3:;}</string>
+	<string>Case( ${1:$TM_SELECTED_TEXT} )$0</string>
+	<key>keyEquivalent</key>
+	<string>~E</string>
 	<key>name</key>
-	<string>Case Test and Result</string>
-	<key>tabTrigger</key>
-	<string>test</string>
+	<string>Case</string>
 	<key>uuid</key>
-	<string>A78F689B-FC49-41AD-A394-EF73AEE046A3</string>
+	<string>87DFBA9B-E2F2-4039-B409-3DDC7883204F</string>
 </dict>
 </plist>

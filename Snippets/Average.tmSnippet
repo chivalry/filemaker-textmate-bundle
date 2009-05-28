@@ -3,13 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>  ${1:test};
-  ${2:result}${3:;}</string>
+	<string>Average( ${1:$TM_SELECTED_TEXT} )$0</string>
+	<key>keyEquivalent</key>
+	<string>~E</string>
 	<key>name</key>
-	<string>Case Test and Result</string>
-	<key>tabTrigger</key>
-	<string>test</string>
+	<string>Average</string>
 	<key>uuid</key>
-	<string>A78F689B-FC49-41AD-A394-EF73AEE046A3</string>
+	<string>231E69F7-C292-46F6-9BEE-62162219DF20</string>
 </dict>
 </plist>
