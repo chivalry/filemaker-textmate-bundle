@@ -118,7 +118,24 @@ Get( WindowName )					wn
 Get( WindowTop )					wt
 Get( WindowVisible )				wv
 Get( WindowWidth )					ww
-Get( WindowZoomLevel )				wzl</string>
+Get( WindowZoomLevel )				wzl
+GetAsBoolean						gab
+GetAsCSS							gac
+GetAsDate							gad
+GetAsNumber						gan
+GetAsSVN							gas
+GetAsText							gat
+GetAsTime							gatm
+GetAsTimestamp					gats
+GetAsURLEncoded					gaur
+GetField							gf
+GetFieldName						gfn
+GetLayoutObjectAttribute			gloa
+GetNextSerialValue					nxsv
+GetNthRecord						gnr
+GetRepetition						gr
+GetSummary						gs
+GetValue							gv</string>
 	<key>name</key>
 	<string>-- Abbreviation List</string>
 	<key>uuid</key>
