@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Get( FileName )</string>
 	<key>tabTrigger</key>
-	<string>filename</string>
+	<string>fn</string>
 	<key>uuid</key>
 	<string>3575431A-5A79-41EB-8FE6-CB69E407DF80</string>
 </dict>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Get( FileSize )</string>
 	<key>tabTrigger</key>
-	<string>filesize</string>
+	<string>fs</string>
 	<key>uuid</key>
 	<string>C1D88A96-7E72-4642-B241-285EE7A2541D</string>
 </dict>

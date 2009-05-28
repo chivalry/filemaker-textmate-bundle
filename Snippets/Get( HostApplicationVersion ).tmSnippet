@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Get( HostApplicationVersion )</string>
 	<key>tabTrigger</key>
-	<string>hostapplicationversion</string>
+	<string>hav</string>
 	<key>uuid</key>
 	<string>E219679D-3BB6-4C45-8A4A-77BBB5F94038</string>
 </dict>

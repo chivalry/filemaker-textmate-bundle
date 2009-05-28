@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Get( LayoutAccess )</string>
 	<key>tabTrigger</key>
-	<string>layoutaccess</string>
+	<string>la</string>
 	<key>uuid</key>
 	<string>F7315458-48CB-48B9-B1D2-778C18AD4367</string>
 </dict>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Get( LayoutNumber )</string>
 	<key>tabTrigger</key>
-	<string>layoutnumber</string>
+	<string>lnm</string>
 	<key>uuid</key>
 	<string>A99F2525-9082-4538-9CC7-5ECC1BA355BC</string>
 </dict>

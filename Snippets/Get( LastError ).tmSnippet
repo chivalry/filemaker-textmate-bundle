@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Get( LastError )</string>
 	<key>tabTrigger</key>
-	<string>lasterror</string>
+	<string>le</string>
 	<key>uuid</key>
 	<string>A43C9D92-5CCE-405C-8335-7C44CD195672</string>
 </dict>

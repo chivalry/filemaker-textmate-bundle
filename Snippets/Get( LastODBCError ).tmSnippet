@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Get( LastODBCError )</string>
 	<key>tabTrigger</key>
-	<string>lastodbcerror</string>
+	<string>lode</string>
 	<key>uuid</key>
 	<string>95B4F1D6-D05C-4662-AFCA-3C47D4115BA0</string>
 </dict>

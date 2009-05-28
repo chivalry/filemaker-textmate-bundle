@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Get( MultiUserState )</string>
 	<key>tabTrigger</key>
-	<string>multiuserstate</string>
+	<string>mus</string>
 	<key>uuid</key>
 	<string>3B5849D8-2621-4B5D-A3BD-73C256F85BFE</string>
 </dict>
