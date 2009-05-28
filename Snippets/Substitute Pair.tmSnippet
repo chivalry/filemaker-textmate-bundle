@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>[${1:text}; ${2:replacementString}]${3:;}</string>
 	<key>name</key>
-	<string>Substitute Pair</string>
+	<string>Substitute Parameter Pair</string>
 	<key>tabTrigger</key>
 	<string>pair</string>
 	<key>uuid</key>
