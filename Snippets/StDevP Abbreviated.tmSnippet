@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>StDevP( ${1:field1}${2:; field2...} )$0</string>
+	<key>name</key>
+	<string>StDevP Abbreviated</string>
+	<key>tabTrigger</key>
+	<string>stp</string>
+	<key>uuid</key>
+	<string>5ECA2003-D053-44F8-A831-FCF438E09496</string>
+</dict>
+</plist>

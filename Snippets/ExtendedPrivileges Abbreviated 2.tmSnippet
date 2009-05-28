@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Get( ExtendedPrivileges )</string>
+	<key>name</key>
+	<string>ExtendedPrivileges Abbreviated 2</string>
+	<key>tabTrigger</key>
+	<string>extpriv</string>
+	<key>uuid</key>
+	<string>0CCBEBD7-DDD1-4E02-B9B2-3D02FE1AE06F</string>
+</dict>
+</plist>

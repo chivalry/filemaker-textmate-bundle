@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Get( MultiUserState )</string>
+	<key>name</key>
+	<string>MultiUserState Abbreviated</string>
+	<key>tabTrigger</key>
+	<string>mus</string>
+	<key>uuid</key>
+	<string>3451B200-E832-4244-B6E3-F5BDBA26849E</string>
+</dict>
+</plist>

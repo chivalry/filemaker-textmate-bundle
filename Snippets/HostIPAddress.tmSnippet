@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Get( HostIPAddress )</string>
+	<key>name</key>
+	<string>HostIPAddress</string>
+	<key>tabTrigger</key>
+	<string>hostipaddress</string>
+	<key>uuid</key>
+	<string>C6BACAC8-733D-4ED2-947B-DB7803FB4A1A</string>
+</dict>
+</plist>

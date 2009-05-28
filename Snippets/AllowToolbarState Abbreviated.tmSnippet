@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Get( AllowToolbarState )</string>
+	<key>name</key>
+	<string>AllowToolbarState Abbreviated</string>
+	<key>tabTrigger</key>
+	<string>ats</string>
+	<key>uuid</key>
+	<string>C4A90E78-4FC3-4271-97CA-167D664408FB</string>
+</dict>
+</plist>

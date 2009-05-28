@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>FieldComment( ${1:Get( FileName )}; ${2:fieldName} )$0</string>
+	<key>name</key>
+	<string>FieldComment Abbreviated</string>
+	<key>tabTrigger</key>
+	<string>fc</string>
+	<key>uuid</key>
+	<string>FC49BE18-3CDA-46B1-9873-190AAF88BCE2</string>
+</dict>
+</plist>

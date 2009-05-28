@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Get( LastMessageChoice )</string>
+	<key>name</key>
+	<string>LastMessageChoice Abbreviated 2</string>
+	<key>tabTrigger</key>
+	<string>msg</string>
+	<key>uuid</key>
+	<string>800D3CA0-1FDC-4786-9F78-F4F87A7C39D0</string>
+</dict>
+</plist>
