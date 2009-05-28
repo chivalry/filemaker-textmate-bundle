@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Average							ave
+Ceiling							ceil
+Choose							cho
+Combination						comb
+DatabaseNames						dbn
+DayName							dyn
+DayNameJ							dynj
+DayOfWeek							dow
+DayOfYear							doy
+Degrees							deg
+Evaluate							eval
+EvaluationError					ever
+Extend							extd
+External							extr
+Factorial							fact
+FieldBounds						fb
+FieldComment						fc
+FieldIDs							fid
+FieldNames						fn
+FieldRepetitions					fr
+FieldStyle						fs
+FieldType							ft
+Filter							flt
+FilterValues						fltv
+Floor							flr
+Get( AccountName )					an
+Get( ActiveFieldContents )			afc
+Get( ActiveFieldName )				afn
+Get( ActiveFieldTableName )			aftn
+Get( ActiveLayoutObjectName )		alon
+Get( ActiveModifierKeys )			amk
+Get( ActiveRepetitionNumber )		arn
+Get( ActiveSelectionSize )			assz
+Get( ActiveSelectionStart )			asst
+Get( AllowAbortState )				aas
+Get( AllowToolbarState )			ats
+Get( ApplicationLanguage )			al
+Get( ApplicationVersion )			av
+Get( CalculationRepetitionNumber )	crn
+Get( CurrentDate )					cd
+Get( CurrentHostTimestamp )			cht
+Get( CurrentTime )					ct
+Get( CurrentTimestamp )				cts
+Get( CustomMenuSetName )			cmsn
+Get( DesktopPath )					dskp
+Get( DocumentsPath )				docp
+Get( DocumentsPathListing )			dcpl
+Get( ErrorCaptureState )			ecs
+Get( ExtendedPrivileges )			ep
+Get( FileMakerPath )				fmp
+Get( FileName )					fn
+Get( FileSize )					fs
+Get( FoundCount )					fc
+Get( HighContrastColor )			hcc
+Get( HighContrastState )			hcs
+Get( HostApplicationVersion )		hav
+Get( HostIPAddress )				hipa
+Get( HostName )					hn
+Get( LastError )					le
+Get( LastMessageChoice )			lmc
+Get( LastODBCError )				lode
+Get( LayoutAccess )				la
+Get( LayoutCount )					lc
+Get( LayoutName )					ln
+Get( LayoutNumber )				lnm
+Get( LayoutTableName )				ltn
+Get( LayoutViewState )				lvs
+Get( MultiUserState )				mus</string>
+	<key>name</key>
+	<string>-- Abbreviation List</string>
+	<key>uuid</key>
+	<string>E880C32D-17E8-4C4E-B4E4-F4BF358CE66C</string>
+</dict>
+</plist>
