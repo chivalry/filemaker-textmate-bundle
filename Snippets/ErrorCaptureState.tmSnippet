@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ErrorCaptureState )</string>
 	<key>name</key>
-	<string>ErrorCaptureState</string>
+	<string>Get( ErrorCaptureState )</string>
 	<key>tabTrigger</key>
 	<string>errorcapturestate</string>
 	<key>uuid</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ScriptName )</string>
 	<key>name</key>
-	<string>ScriptName</string>
+	<string>Get( ScriptName )</string>
 	<key>tabTrigger</key>
 	<string>scriptname</string>
 	<key>uuid</key>

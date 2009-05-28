@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( TotalRecordCount )</string>
 	<key>name</key>
-	<string>TotalRecordCount</string>
+	<string>Get( TotalRecordCount )</string>
 	<key>tabTrigger</key>
 	<string>totalrecordcount</string>
 	<key>uuid</key>

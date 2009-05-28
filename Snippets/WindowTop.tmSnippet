@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( WindowTop )</string>
 	<key>name</key>
-	<string>WindowTop</string>
+	<string>Get( WindowTop )</string>
 	<key>tabTrigger</key>
 	<string>windowtop</string>
 	<key>uuid</key>

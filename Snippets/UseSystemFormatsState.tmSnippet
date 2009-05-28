@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( UseSystemFormatsState )</string>
 	<key>name</key>
-	<string>UseSystemFormatsState</string>
+	<string>Get( UseSystemFormatsState )</string>
 	<key>tabTrigger</key>
 	<string>usesystemformatsstate</string>
 	<key>uuid</key>

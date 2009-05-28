@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ExtendedPrivileges )</string>
 	<key>name</key>
-	<string>ExtendedPrivileges</string>
+	<string>Get( ExtendedPrivileges )</string>
 	<key>tabTrigger</key>
 	<string>extendedprivileges</string>
 	<key>uuid</key>

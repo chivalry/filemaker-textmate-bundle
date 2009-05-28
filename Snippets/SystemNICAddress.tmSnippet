@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( SystemNICAddress )</string>
 	<key>name</key>
-	<string>SystemNICAddress</string>
+	<string>Get( SystemNICAddress )</string>
 	<key>tabTrigger</key>
 	<string>systemnicaddress</string>
 	<key>uuid</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( PageNumber )</string>
 	<key>name</key>
-	<string>PageNumber</string>
+	<string>Get( PageNumber )</string>
 	<key>tabTrigger</key>
 	<string>pagenumber</string>
 	<key>uuid</key>

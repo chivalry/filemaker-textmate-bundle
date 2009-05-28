@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( PreferencesPath )</string>
 	<key>name</key>
-	<string>PreferencesPath</string>
+	<string>Get( PreferencesPath )</string>
 	<key>tabTrigger</key>
 	<string>preferencespath</string>
 	<key>uuid</key>

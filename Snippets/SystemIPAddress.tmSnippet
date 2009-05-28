@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( SystemIPAddress )</string>
 	<key>name</key>
-	<string>SystemIPAddress</string>
+	<string>Get( SystemIPAddress )</string>
 	<key>tabTrigger</key>
 	<string>systemipaddress</string>
 	<key>uuid</key>

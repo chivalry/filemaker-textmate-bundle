@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ActiveRepetitionNumber )</string>
 	<key>name</key>
-	<string>ActiveRepetitionNumber</string>
+	<string>Get( ActiveRepetitionNumber )</string>
 	<key>tabTrigger</key>
 	<string>activerepetitionnumber</string>
 	<key>uuid</key>

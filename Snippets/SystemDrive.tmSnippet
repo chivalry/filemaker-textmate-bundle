@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( SystemDrive )</string>
 	<key>name</key>
-	<string>SystemDrive</string>
+	<string>Get( SystemDrive )</string>
 	<key>tabTrigger</key>
 	<string>systemdrive</string>
 	<key>uuid</key>

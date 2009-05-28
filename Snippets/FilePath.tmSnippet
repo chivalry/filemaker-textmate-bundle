@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( FilePath )</string>
 	<key>name</key>
-	<string>FilePath</string>
+	<string>Get( FilePath )</string>
 	<key>tabTrigger</key>
 	<string>filepath</string>
 	<key>uuid</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ApplicationLanguage )</string>
 	<key>name</key>
-	<string>ApplicationLanguage</string>
+	<string>Get( ApplicationLanguage )</string>
 	<key>tabTrigger</key>
 	<string>applicationlanguage</string>
 	<key>uuid</key>

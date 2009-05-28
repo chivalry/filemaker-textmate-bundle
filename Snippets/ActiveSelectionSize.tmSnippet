@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ActiveSelectionSize )</string>
 	<key>name</key>
-	<string>ActiveSelectionSize</string>
+	<string>Get( ActiveSelectionSize )</string>
 	<key>tabTrigger</key>
 	<string>activeselectionsize</string>
 	<key>uuid</key>

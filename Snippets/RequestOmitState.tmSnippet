@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( RequestOmitState )</string>
 	<key>name</key>
-	<string>RequestOmitState</string>
+	<string>Get( RequestOmitState )</string>
 	<key>tabTrigger</key>
 	<string>requestomitstate</string>
 	<key>uuid</key>

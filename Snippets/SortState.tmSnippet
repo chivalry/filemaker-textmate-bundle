@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( SortState )</string>
 	<key>name</key>
-	<string>SortState</string>
+	<string>Get( SortState )</string>
 	<key>tabTrigger</key>
 	<string>sortstate</string>
 	<key>uuid</key>

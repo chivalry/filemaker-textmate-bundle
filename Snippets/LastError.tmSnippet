@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( LastError )</string>
 	<key>name</key>
-	<string>LastError</string>
+	<string>Get( LastError )</string>
 	<key>tabTrigger</key>
 	<string>lasterror</string>
 	<key>uuid</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( RecordNumber )</string>
 	<key>name</key>
-	<string>RecordNumber</string>
+	<string>Get( RecordNumber )</string>
 	<key>tabTrigger</key>
 	<string>recordnumber</string>
 	<key>uuid</key>

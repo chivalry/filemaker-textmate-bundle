@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( HighContrastState )</string>
 	<key>name</key>
-	<string>HighContrastState</string>
+	<string>Get( HighContrastState )</string>
 	<key>tabTrigger</key>
 	<string>histcontraststate</string>
 	<key>uuid</key>

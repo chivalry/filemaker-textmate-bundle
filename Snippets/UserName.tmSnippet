@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( UserName )</string>
 	<key>name</key>
-	<string>UserName</string>
+	<string>Get( UserName )</string>
 	<key>tabTrigger</key>
 	<string>username</string>
 	<key>uuid</key>

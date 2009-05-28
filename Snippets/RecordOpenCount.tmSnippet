@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( RecordOpenCount )</string>
 	<key>name</key>
-	<string>RecordOpenCount</string>
+	<string>Get( RecordOpenCount )</string>
 	<key>tabTrigger</key>
 	<string>recordopencount</string>
 	<key>uuid</key>

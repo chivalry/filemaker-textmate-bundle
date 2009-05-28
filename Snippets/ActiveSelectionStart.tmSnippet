@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ActiveSelectionStart )</string>
 	<key>name</key>
-	<string>ActiveSelectionStart</string>
+	<string>Get( ActiveSelectionStart )</string>
 	<key>tabTrigger</key>
 	<string>activeselectionstart</string>
 	<key>uuid</key>

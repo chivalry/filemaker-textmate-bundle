@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( TextRulerVisible )</string>
 	<key>name</key>
-	<string>TextRulerVisible</string>
+	<string>Get( TextRulerVisible )</string>
 	<key>tabTrigger</key>
 	<string>textrulervisible</string>
 	<key>uuid</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( LayoutViewState )</string>
 	<key>name</key>
-	<string>LayoutViewState</string>
+	<string>Get( LayoutViewState )</string>
 	<key>tabTrigger</key>
 	<string>layoutviewstate</string>
 	<key>uuid</key>

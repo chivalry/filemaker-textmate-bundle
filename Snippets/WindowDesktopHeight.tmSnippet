@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( WindowDesktopHeight )</string>
 	<key>name</key>
-	<string>WindowDesktopHeight</string>
+	<string>Get( WindowDesktopHeight )</string>
 	<key>tabTrigger</key>
 	<string>windowdesktopheight</string>
 	<key>uuid</key>

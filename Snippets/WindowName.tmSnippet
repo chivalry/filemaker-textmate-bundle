@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( WindowName )</string>
 	<key>name</key>
-	<string>WindowName</string>
+	<string>Get( WindowName )</string>
 	<key>tabTrigger</key>
 	<string>windowname</string>
 	<key>uuid</key>

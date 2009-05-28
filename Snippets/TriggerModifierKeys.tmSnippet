@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( TriggerModifierKeys )</string>
 	<key>name</key>
-	<string>TriggerModifierKeys</string>
+	<string>Get( TriggerModifierKeys )</string>
 	<key>tabTrigger</key>
 	<string>triggermodifierkeys</string>
 	<key>uuid</key>

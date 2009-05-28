@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( PrinterName )</string>
 	<key>name</key>
-	<string>PrinterName</string>
+	<string>Get( PrinterName )</string>
 	<key>tabTrigger</key>
 	<string>printername</string>
 	<key>uuid</key>

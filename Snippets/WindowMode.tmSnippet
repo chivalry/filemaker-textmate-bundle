@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( WindowMode )</string>
 	<key>name</key>
-	<string>WindowMode</string>
+	<string>Get( WindowMode )</string>
 	<key>tabTrigger</key>
 	<string>windowmode</string>
 	<key>uuid</key>

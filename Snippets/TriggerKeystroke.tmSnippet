@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( TriggerKeystroke )</string>
 	<key>name</key>
-	<string>TriggerKeystroke</string>
+	<string>Get( TriggerKeystroke )</string>
 	<key>tabTrigger</key>
 	<string>triggerkeystroke</string>
 	<key>uuid</key>

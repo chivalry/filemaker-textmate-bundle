@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( CalculationRepetitionNumber )</string>
 	<key>name</key>
-	<string>CalculationRepetitionNumber</string>
+	<string>Get( CalculationRepetitionNumber )</string>
 	<key>tabTrigger</key>
 	<string>calculationrepetitionnumber</string>
 	<key>uuid</key>

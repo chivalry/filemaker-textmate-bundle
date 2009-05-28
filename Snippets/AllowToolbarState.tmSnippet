@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( AllowToolbarState )</string>
 	<key>name</key>
-	<string>AllowToolbarState</string>
+	<string>Get( AllowToolbarState )</string>
 	<key>tabTrigger</key>
 	<string>allowtoolbarstate</string>
 	<key>uuid</key>

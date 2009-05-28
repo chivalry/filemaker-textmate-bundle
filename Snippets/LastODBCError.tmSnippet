@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( LastODBCError )</string>
 	<key>name</key>
-	<string>LastODBCError</string>
+	<string>Get( LastODBCError )</string>
 	<key>tabTrigger</key>
 	<string>lastodbcerror</string>
 	<key>uuid</key>

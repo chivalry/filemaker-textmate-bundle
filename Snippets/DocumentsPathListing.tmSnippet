@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( DocumentsPathListing )</string>
 	<key>name</key>
-	<string>DocumentsPathListing</string>
+	<string>Get( DocumentsPathListing )</string>
 	<key>tabTrigger</key>
 	<string>documentspathlisting</string>
 	<key>uuid</key>

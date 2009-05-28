@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( FoundCount )</string>
 	<key>name</key>
-	<string>FoundCount</string>
+	<string>Get( FoundCount )</string>
 	<key>tabTrigger</key>
 	<string>foundcount</string>
 	<key>uuid</key>

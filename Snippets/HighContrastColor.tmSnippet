@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( HighContrastColor )</string>
 	<key>name</key>
-	<string>HighContrastColor</string>
+	<string>Get( HighContrastColor )</string>
 	<key>tabTrigger</key>
 	<string>highcontrastcolor</string>
 	<key>uuid</key>

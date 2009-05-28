@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( WindowVisible )</string>
 	<key>name</key>
-	<string>WindowVisible</string>
+	<string>Get( WindowVisible )</string>
 	<key>tabTrigger</key>
 	<string>windowvisible</string>
 	<key>uuid</key>

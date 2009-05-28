@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( LayoutTableName )</string>
 	<key>name</key>
-	<string>LayoutTableName</string>
+	<string>Get( LayoutTableName )</string>
 	<key>tabTrigger</key>
 	<string>layouttablename</string>
 	<key>uuid</key>

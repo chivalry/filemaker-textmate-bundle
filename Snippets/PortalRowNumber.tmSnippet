@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( PortalRowNumber )</string>
 	<key>name</key>
-	<string>PortalRowNumber</string>
+	<string>Get( PortalRowNumber )</string>
 	<key>tabTrigger</key>
 	<string>portalrownumber</string>
 	<key>uuid</key>

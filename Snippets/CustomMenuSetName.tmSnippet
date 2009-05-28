@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( CustomMenuSetName )</string>
 	<key>name</key>
-	<string>CustomMenuSetName</string>
+	<string>Get( CustomMenuSetName )</string>
 	<key>tabTrigger</key>
 	<string>custommenusetname</string>
 	<key>uuid</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( NetworkProtocol )</string>
 	<key>name</key>
-	<string>NetworkProtocol</string>
+	<string>Get( NetworkProtocol )</string>
 	<key>tabTrigger</key>
 	<string>networkprotocol</string>
 	<key>uuid</key>

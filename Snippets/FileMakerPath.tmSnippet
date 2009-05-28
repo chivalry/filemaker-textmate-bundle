@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( FileMakerPath )</string>
 	<key>name</key>
-	<string>FileMakerPath</string>
+	<string>Get( FileMakerPath )</string>
 	<key>tabTrigger</key>
 	<string>filemakerpath</string>
 	<key>uuid</key>

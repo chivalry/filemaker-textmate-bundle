@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( FileSize )</string>
 	<key>name</key>
-	<string>FileSize</string>
+	<string>Get( FileSize )</string>
 	<key>tabTrigger</key>
 	<string>filesize</string>
 	<key>uuid</key>

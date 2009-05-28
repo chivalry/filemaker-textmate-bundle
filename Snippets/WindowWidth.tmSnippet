@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( WindowWidth )</string>
 	<key>name</key>
-	<string>WindowWidth</string>
+	<string>Get( WindowWidth )</string>
 	<key>tabTrigger</key>
 	<string>windowwidth</string>
 	<key>uuid</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( CurrentTimestamp )</string>
 	<key>name</key>
-	<string>CurrentTimestamp</string>
+	<string>Get( CurrentTimestamp )</string>
 	<key>tabTrigger</key>
 	<string>currenttimestamp</string>
 	<key>uuid</key>

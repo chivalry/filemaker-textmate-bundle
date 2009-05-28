@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ScriptResult )</string>
 	<key>name</key>
-	<string>ScriptResult</string>
+	<string>Get( ScriptResult )</string>
 	<key>tabTrigger</key>
 	<string>scriptresult</string>
 	<key>uuid</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ScreenHeight )</string>
 	<key>name</key>
-	<string>ScreenHeight</string>
+	<string>Get( ScreenHeight )</string>
 	<key>tabTrigger</key>
 	<string>screenheight</string>
 	<key>uuid</key>

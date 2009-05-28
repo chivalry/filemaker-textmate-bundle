@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ScreenDepth )</string>
 	<key>name</key>
-	<string>ScreenDepth</string>
+	<string>Get( ScreenDepth )</string>
 	<key>tabTrigger</key>
 	<string>screendepth</string>
 	<key>uuid</key>

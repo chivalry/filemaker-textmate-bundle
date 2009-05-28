@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( ActiveFieldContents )</string>
 	<key>name</key>
-	<string>ActiveFieldContents</string>
+	<string>Get( ActiveFieldContents )</string>
 	<key>tabTrigger</key>
 	<string>activefieldcontents</string>
 	<key>uuid</key>

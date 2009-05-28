@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( DesktopPath )</string>
 	<key>name</key>
-	<string>DesktopPath</string>
+	<string>Get( DesktopPath )</string>
 	<key>tabTrigger</key>
 	<string>deskpath</string>
 	<key>uuid</key>

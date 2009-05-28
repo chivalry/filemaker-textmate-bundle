@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( HostApplicationVersion )</string>
 	<key>name</key>
-	<string>HostApplicationVersion</string>
+	<string>Get( HostApplicationVersion )</string>
 	<key>tabTrigger</key>
 	<string>hostapplicationversion</string>
 	<key>uuid</key>

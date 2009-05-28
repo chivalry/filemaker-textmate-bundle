@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( SystemVersion )</string>
 	<key>name</key>
-	<string>SystemVersion</string>
+	<string>Get( SystemVersion )</string>
 	<key>tabTrigger</key>
 	<string>systemversion</string>
 	<key>uuid</key>

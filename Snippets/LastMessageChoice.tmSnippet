@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>Get( LastMessageChoice )</string>
 	<key>name</key>
-	<string>LastMessageChoice</string>
+	<string>Get( LastMessageChoice )</string>
 	<key>tabTrigger</key>
 	<string>lastmessagechoice</string>
 	<key>uuid</key>
