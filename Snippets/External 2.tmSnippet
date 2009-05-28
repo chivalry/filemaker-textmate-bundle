@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[${1:text}; ${2:replacementString}]${3:;}</string>
+	<string>External( ${1:$TM_SELECTED_TEXT} )$0</string>
+	<key>keyEquivalent</key>
+	<string>~E</string>
 	<key>name</key>
-	<string>Substitute Parameter Pair</string>
-	<key>tabTrigger</key>
-	<string>subpair</string>
+	<string>External</string>
 	<key>uuid</key>
-	<string>0269F626-7133-4FCD-B6D4-1ABB6C5C874E</string>
+	<string>9B87714B-D984-491B-A8E5-303F092E54D8</string>
 </dict>
 </plist>

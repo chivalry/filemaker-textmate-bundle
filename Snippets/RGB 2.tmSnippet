@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[${1:text}; ${2:replacementString}]${3:;}</string>
+	<string>RGB( ${1:$TM_SELECTED_TEXT} )$0</string>
+	<key>keyEquivalent</key>
+	<string>~E</string>
 	<key>name</key>
-	<string>Substitute Parameter Pair</string>
-	<key>tabTrigger</key>
-	<string>subpair</string>
+	<string>RGB</string>
 	<key>uuid</key>
-	<string>0269F626-7133-4FCD-B6D4-1ABB6C5C874E</string>
+	<string>28575C6C-6C95-4015-B4B1-91640CE2FE3A</string>
 </dict>
 </plist>

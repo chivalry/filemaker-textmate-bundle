@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[${1:text}; ${2:replacementString}]${3:;}</string>
+	<string>SerialIncrement( ${1:$TM_SELECTED_TEXT} )$0</string>
+	<key>keyEquivalent</key>
+	<string>~E</string>
 	<key>name</key>
-	<string>Substitute Parameter Pair</string>
-	<key>tabTrigger</key>
-	<string>subpair</string>
+	<string>SerialIncrement</string>
 	<key>uuid</key>
-	<string>0269F626-7133-4FCD-B6D4-1ABB6C5C874E</string>
+	<string>808C8B41-434C-4E7E-824B-275EDE09FF2A</string>
 </dict>
 </plist>

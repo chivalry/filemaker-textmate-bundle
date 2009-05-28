@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[${1:text}; ${2:replacementString}]${3:;}</string>
+	<string>LayoutObjectNames( ${1:$TM_SELECTED_TEXT} )$0</string>
+	<key>keyEquivalent</key>
+	<string>~E</string>
 	<key>name</key>
-	<string>Substitute Parameter Pair</string>
-	<key>tabTrigger</key>
-	<string>subpair</string>
+	<string>LayoutObjectNames</string>
 	<key>uuid</key>
-	<string>0269F626-7133-4FCD-B6D4-1ABB6C5C874E</string>
+	<string>F681BA70-9CFA-4EC1-B162-B69A1D9E78E5</string>
 </dict>
 </plist>

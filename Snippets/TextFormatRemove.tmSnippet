@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[${1:text}; ${2:replacementString}]${3:;}</string>
+	<string>TextFormatRemove( ${1:text} )$0</string>
 	<key>name</key>
-	<string>Substitute Parameter Pair</string>
+	<string>TextFormatRemove</string>
 	<key>tabTrigger</key>
-	<string>subpair</string>
+	<string>textfontremove</string>
 	<key>uuid</key>
-	<string>0269F626-7133-4FCD-B6D4-1ABB6C5C874E</string>
+	<string>EC419322-C501-4778-B9F5-15853DF39320</string>
 </dict>
 </plist>
