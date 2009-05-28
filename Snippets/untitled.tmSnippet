@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Average( ${1:field1}${2:; field2...} )$0</string>
+	<string>Average( ${1:field1}${2:; field2...} )$0
+some extra text</string>
 	<key>name</key>
 	<string>Average</string>
 	<key>tabTrigger</key>
