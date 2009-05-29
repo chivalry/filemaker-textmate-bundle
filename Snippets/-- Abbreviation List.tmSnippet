@@ -185,7 +185,36 @@ SerialIncrement					si
 SetPrecision						sp
 StDev							sd
 StDevP							sdp
-Substitute						sub</string>
+Substitute						sub
+TableIDs							tid
+TableNames						tn
+TextColor							tc
+TextColorRemove					tcr
+TextFont							tf
+TextFontRemove					tfr
+TextFormatRemove					tftr
+TextSize							tsz
+TextSizeRemove					tszr
+TextStyleAdd						tsta
+TextStyleRemove					tstr
+Time								t
+Timestamp							ts
+Trim								trm
+TrimAll							trma
+Truncate							trn
+Upper							up
+ValueCount						vc
+ValueListIDs						vid
+ValueListItems					vi
+ValueListNames					vn
+Variance							var
+VarianceP							varp
+WeekOfYear						woy
+WeekOfYearFiscal					woyf
+WindowNames						wn
+WordCount							wc
+Year								yr
+YearName							yn</string>
 	<key>name</key>
 	<string>-- Abbreviation List</string>
 	<key>uuid</key>
