@@ -1515,6 +1515,6 @@
   <key>contactName</key>
   <string>Charles Ross</string>
   <key>description</key>
-  <string><a href="http://www.filemaker.com/">FileMaker</a> is a cross-platform, rapid development database application.</string>
+  <string>FileMaker is a cross-platform, rapid development database application.</string>
 </dict>
 </plist>
