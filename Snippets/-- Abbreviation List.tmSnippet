@@ -148,13 +148,44 @@ Katakana							kk
 LayoutIDs							lid
 LayoutNames						lan
 LayoutObjectNames					lon
+Left								l
 LeftValues						lv
 LeftWords							lw
 Length							len
 List								ls
 Lookup							lu
 LookupNext						lun
-Lower							low</string>
+Lower							low
+Middle							mid
+MiddleValues						mv
+MiddleWords						mw
+Minute							mt
+Month							mo
+MonthName							mn
+MonthNameJ						mnj
+NumToJText						njt
+PatternCount						pc
+Position							pos
+Proper							prop
+Quote							q
+Radians							rad
+Random							rand
+RelationInfo						ri
+Replace							repl
+Right							r
+RightValues						rv
+RightWords						rw
+RomanHankaku						rh
+RomanZenkaku						rz
+Round							rnd
+ScriptIDs							sid
+ScriptNames						sn
+Seconds							sec
+SerialIncrement					si
+SetPrecision						sp
+StDev							sd
+StDevP							sdp
+Substitute						sub</string>
 	<key>name</key>
 	<string>-- Abbreviation List</string>
 	<key>uuid</key>
