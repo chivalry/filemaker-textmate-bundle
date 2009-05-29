@@ -135,7 +135,26 @@ GetNextSerialValue					nxsv
 GetNthRecord						gnr
 GetRepetition						gr
 GetSummary						gs
-GetValue							gv</string>
+GetValue							gv
+Hiragana							hg
+Hour								hr
+IsEmpty							ie
+IsValid							iv
+IsValidExpression					ive
+KanaHankaku						kh
+KanaZenkaku						kz
+KanjiNumeral						kn
+Katakana							kk
+LayoutIDs							lid
+LayoutNames						lan
+LayoutObjectNames					lon
+LeftValues						lv
+LeftWords							lw
+Length							len
+List								ls
+Lookup							lu
+LookupNext						lun
+Lower							low</string>
 	<key>name</key>
 	<string>-- Abbreviation List</string>
 	<key>uuid</key>
