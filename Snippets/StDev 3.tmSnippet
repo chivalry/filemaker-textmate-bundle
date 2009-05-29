@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>StDev</string>
 	<key>tabTrigger</key>
-	<string>sd</string>
+	<string>std</string>
 	<key>uuid</key>
 	<string>0A1ABBF3-D621-454B-8C81-25B65E5152B2</string>
 </dict>

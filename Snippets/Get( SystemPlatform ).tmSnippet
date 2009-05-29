@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Get( SystemPlatform )</string>
 	<key>tabTrigger</key>
-	<string>sp</string>
+	<string>syp</string>
 	<key>uuid</key>
 	<string>E716E9B8-5953-4BD5-82C4-82C3EE11824F</string>
 </dict>

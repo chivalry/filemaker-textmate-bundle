@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>FieldNames</string>
 	<key>tabTrigger</key>
-	<string>fn</string>
+	<string>fnm</string>
 	<key>uuid</key>
 	<string>E2A98CBD-83BF-4067-84C1-729280013B2D</string>
 </dict>

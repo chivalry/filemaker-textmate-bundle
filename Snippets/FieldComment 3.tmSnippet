@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>FieldComment</string>
 	<key>tabTrigger</key>
-	<string>fc</string>
+	<string>fcm</string>
 	<key>uuid</key>
 	<string>8F90945F-650A-4C12-A251-30C961F2908B</string>
 </dict>

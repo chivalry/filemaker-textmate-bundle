@@ -19,11 +19,11 @@ Extend							extd
 External							extr
 Factorial							fact
 FieldBounds						fb
-FieldComment						fc
+FieldComment						fcm
 FieldIDs							fid
-FieldNames						fn
+FieldNames						fnm
 FieldRepetitions					fr
-FieldStyle						fs
+FieldStyle						fst
 FieldType							ft
 Filter							flt
 FilterValues						fltv
@@ -75,7 +75,7 @@ Get( NetworkProtocol )				np
 Get( PageNumber )					pn
 Get( PortalRowNumber )				prn
 Get( PreferencesPath )				pp
-Get( PrinterName )					pn
+Get( PrinterName )					ptn
 Get( PrivilegeSetName )				psn
 Get( RecordAccess )				ra
 Get( RecordID )					rid
@@ -84,7 +84,7 @@ Get( RecordNumber )				rn
 Get( RecordOpenCount )				roc
 Get( RecordOpenState )				ros
 Get( RequestCount )				rc
-Get( RequestOmitState )				ros
+Get( RequestOmitState )				rqos
 Get( ScreenDepth )					sd
 Get( ScreenHeight )				sh
 Get( ScreenWidth )					sw
@@ -93,7 +93,7 @@ Get( ScriptParameter )				sp
 Get( ScriptResult )				sr
 Get( SortState )					ss
 Get( StatusAreaState )				sas
-Get( SystemDrive )					sd
+Get( SystemDrive )					syd
 Get( SystemIPAddress )				sipa
 Get( SystemLanguage )				sl
 Get( SystemNICAddress )				snic
@@ -179,7 +179,7 @@ RomanHankaku						rh
 RomanZenkaku						rz
 Round							rnd
 ScriptIDs							sid
-ScriptNames						sn
+ScriptNames						scn
 Seconds							sec
 SerialIncrement					si
 SetPrecision						sp
@@ -211,7 +211,7 @@ Variance							var
 VarianceP							varp
 WeekOfYear						woy
 WeekOfYearFiscal					woyf
-WindowNames						wn
+WindowNames						wnm
 WordCount							wc
 Year								yr
 YearName							yn</string>
