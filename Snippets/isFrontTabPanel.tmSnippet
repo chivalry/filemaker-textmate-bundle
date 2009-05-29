@@ -2,9 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>content</key>
+	<string>isFrontTabPanel</string>
 	<key>name</key>
-	<string>-- Parameter Snippets --------------------</string>
+	<string>isFrontTabPanel</string>
+	<key>tabTrigger</key>
+	<string>isf</string>
 	<key>uuid</key>
-	<string>CEF4EC89-E25A-4BC3-90CC-4EFFA5E41E86</string>
+	<string>DA7C1932-B94C-4246-B80D-2813BFDA797D</string>
 </dict>
 </plist>

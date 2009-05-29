@@ -2,9 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>content</key>
+	<string>width</string>
 	<key>name</key>
-	<string>-- Parameter Snippets --------------------</string>
+	<string>width</string>
+	<key>tabTrigger</key>
+	<string>wid</string>
 	<key>uuid</key>
-	<string>CEF4EC89-E25A-4BC3-90CC-4EFFA5E41E86</string>
+	<string>2663D393-AEB4-4FAF-8CC3-9A690C14F1AD</string>
 </dict>
 </plist>

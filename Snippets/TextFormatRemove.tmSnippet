@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>TextFormatRemove</string>
 	<key>tabTrigger</key>
-	<string>textfontremove</string>
+	<string>textformatremove</string>
 	<key>uuid</key>
 	<string>EC419322-C501-4778-B9F5-15853DF39320</string>
 </dict>
