@@ -31,6 +31,12 @@ DONE
 IN PROGRESS
 - An organized bundle menu for access to features via that interface rather than just with the keyboard.
 
+UNTOUCHED
+- Provide snippets for constants and functions that are included as part of the SmartPill plugin.
+
+DONE
+- Integrate FileMaker PHP API bundle.
+
 That's at a minimum. Additionally, if I can figure out a good way to use AppleScript or something else to help out the process, I'd like to include the following.
 
 - Code completion for any custom functions available in the open files.
