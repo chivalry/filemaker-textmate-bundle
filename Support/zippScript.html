@@ -1,0 +1,839 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name=Title content="zippScript_Version( {Format} )">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="zippScript_files/filelist.xml">
+<title>zippScript_Version( {Format} )</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Charles Ross</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:Created>2008-07-14T19:07:00Z</o:Created>
+  <o:LastSaved>2008-07-14T19:10:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>1559</o:Words>
+  <o:Characters>8887</o:Characters>
+  <o:Company>Chivalry Software, LLC</o:Company>
+  <o:Lines>74</o:Lines>
+  <o:Paragraphs>17</o:Paragraphs>
+  <o:CharactersWithSpaces>10913</o:CharactersWithSpaces>
+  <o:Version>11.773</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Times New Roman";
+	panose-1:0 2 2 6 3 5 4 5 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:50331648 0 0 0 1 0;}
+@font-face
+	{font-family:"Courier New";
+	panose-1:0 2 7 3 9 2 2 5 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:50331648 0 0 0 1 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:0 2 11 6 4 3 5 4 4 2;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:50331648 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+table.MsoNormalTable
+	{mso-style-parent:"";
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_Version"></a>zippScript_Version( {Format} )<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Returns the version number of the currently installed plug-in.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Parameters</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>Format</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - an optional parameter specifying an alternate format of
+version information.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_Version</b></span><span style='font-size:10.0pt;
+font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>returns </span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><b>2.2</b></span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_Version( ““ )</b></span><span style='font-size:10.0pt;
+font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>returns </span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><b>2.2</b></span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_Version( “short” )</b></span><span style='font-size:
+10.0pt;font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>returns </span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><b>2.2</b></span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_Version( “long” )</b></span><span style='font-size:
+10.0pt;font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>returns </span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><b>zippScript 2.2</b></span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_Version( “platform” )</b></span><span
+style='font-size:10.0pt;font-family:Courier;color:black'> </span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'>returns </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>Mac OS X (Intel)</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> when FileMaker 8.5 is
+running on an Intel Mac.</span><span style='font-size:10.0pt;font-family:Courier;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Note</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>If the plug-in is not installed, calling this function will return
+an invalid result. If the plug-in is installed but disabled, the function will
+return an empty string. This feature may be used to test for the existence of
+the plug-in if your solution requires it to enable some functionality.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_PerformScript"></a>zippScript_PerformScript( FileName; ScriptName {; Param;
+Control} )<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Allow a script to be run from any FileMaker calculation dialog.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Parameters</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>FileName</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - the name of the open file containing the script to be
+run. This will typically be set to </span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><b>Get(FileName)</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'>, but may be a text
+string explictly naming the file (“MyFile.fp7”), a text field containing the
+name of the file, or a calculation or custom function returning the name of the
+file.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>ScriptName</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - the name of the script to run. As with the </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>FileName</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> parameter, the name
+may be supplied by text string, field or calculation. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>Param</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'> - an optional parameter containing a string to be passed to the
+specified script as a text script parameter. Multiple script parameters may be passed
+to the script using any delimiter you choose. The default value is an empty
+script parameter.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>Control</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - an optional parameter used to modify FileMakerÕs
+handling of other running scripts when the specified script is run. This value
+may be one of “halt”, “exit”, “resume”, “pause”, or the corresponding numerical
+values 0, 1, 2 or 3. The default value is “pause”.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Note</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>If script triggers have been disabled by a previous use of the </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>zippScript_DisableTriggers</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> function, the call to
+this function will be ignored and no script will be triggered.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>An error code may be returned if the named file is not open or the
+named script cannot be found in that file.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_ScheduleScript"></a>zippScript_ScheduleScript( Time; FileName; ScriptName {;
+Param; Control} )<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Schedule a single script trigger to be performed at some future
+time.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Parameters</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>Time</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'> - a Date, Time or TimeStamp specifying the time at which the
+scheduled script is to be triggered.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Passing a Date will schedule a trigger just past midnight on the
+morning of the given Date. Passing a Time will schedule a trigger at the given
+time on todayÕs date. Passing a TimeStamp will schedule a trigger at that Date
+and Time.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>FileName</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - the name of the open file containing the script to be
+run. This will typically be set to </span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><b>Get(FileName)</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>ScriptName</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - the name of the script to run.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>Param</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'> - an optional parameter containing a string to be passed to the
+specified script as a text script parameter. Multiple script parameters may be
+passed to the script using any delimiter you choose. The default value is an
+empty script parameter.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>Control</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - an optional parameter used to modify FileMakerÕs
+handling of other running scripts when the specified script is run. This value
+may be one of “halt”, “exit”, “resume”, “pause”, or the corresponding numerical
+values 0, 1, 2 or 3. The default value is “pause”.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black;letter-spacing:-1.0pt'><b>zippScript_ScheduleScript( “1/1/2007”; “MyFile”;
+“NewYearScript” )</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'> will perform the script just as the clock strikes on New YearÕs
+day.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black;letter-spacing:-1.0pt'><b>zippScript_ScheduleScript(
+Get(CurrentTimeStamp) + 30; “MyFile”; “MyScript”; SomeField )</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> will perform the
+script in 30 seconds from now, passing the contents of SomeField as a script
+parameter.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black;letter-spacing:-1.0pt'><b>zippScript_ScheduleScript( Get(CurrentHostTimeStamp)
++ 60; “MyFile”; “MyScript” )</b></span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'> will schedule the script relative to the
+serverÕs clock, which may be a different time than the local clock.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_GetScheduledScript"></a>zippScript_GetScheduledScript<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Returns information about the scheduled script trigger in a
+pipe-delimited (“|”) string.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_GetScheduledScript</b></span><span style='font-size:
+10.0pt;font-family:Verdana;color:black'> returns an empty string when no script
+trigger has been scheduled, or after a scheduled script trigger has been
+activated.</span><span style='font-size:10.0pt;font-family:Courier;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_GetScheduledScript</b></span><span style='font-size:
+10.0pt;font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>returns </span><span style='font-size:10.0pt;
+font-family:"Courier New";color:black'><b>“12/31/2006 11:59:59 PM|zippScript
+Example|ShowMessage|Happy New Year!”</b></span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'> when a script trigger has been scheduled to
+run a script to display a message just before Midnight on New YearÕs Eve.</span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Note</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>This function will return an empty string when no script trigger
+has been scheduled, or after a scheduled script trigger has been activated.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Scheduled script triggers may not be activated exactly at the
+specified time if FileMaker is busy or if script triggers have been disabled.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>FileMakerÕs text manipulation functions may be used to extract
+individual pieces from the string of scheduled script trigger information.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_CancelScheduledScript"></a>zippScript_CancelScheduledScript<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Cancel a previously scheduled script trigger before the event time
+has occurred.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_CancelScheduledScript</b></span><span
+style='font-size:10.0pt;font-family:Courier;color:black'> </span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'>cancels any pending
+scheduled script trigger. No value is returned.</span><span style='font-size:
+10.0pt;font-family:Courier;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Note</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>This function may be called at any time, even if a script has not
+been scheduled or the event time has occurred and the scheduled script has
+already been triggered.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Any pending scheduled script trigger will be canceled and the
+details of that trigger will be forgotten. A subsequent call to </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>zippScript_GetScheduledScript</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> will return an empty
+string.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>You may want to call this function after calling </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>zippScript_DisableTriggers</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> to ensure a scheduled
+script trigger whose event time occurs during the period that triggers are
+disabled does not attempt to run as soon as events are re-enabled.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>You may also want to call this function if you close the file but
+do not quit FileMaker. A scheduled script trigger calling a script in the
+closed file will attempt to perform the script at the scheduled time and will
+silently fail when the file cannot be found.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_IdleScript"></a>zippScript_IdleScript( Minutes; FileName; ScriptName {;
+Param; Control} )<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Schedule a single script trigger to be performed after a period of
+no user activity.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Parameters</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>Minutes</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - a number specifying the minutes of no user activity
+that must pass before the idle script is to be triggered.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>FileName</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - the name of the open file containing the script to be
+run. This will typically be set to </span><span style='font-size:10.0pt;
+font-family:Courier;color:black'><b>Get(FileName)</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>ScriptName</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - the name of the script to run.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>Param</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'> - an optional parameter containing a string to be passed to the
+specified script as a text script parameter. Multiple script parameters may be
+passed to the script using any delimiter you choose. The default value is an
+empty script parameter.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>Control</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'> - an optional parameter used to modify FileMakerÕs
+handling of other running scripts when the specified script is run. This value
+may be one of “halt”, “exit”, “resume”, “pause”, or the corresponding numerical
+values 0, 1, 2 or 3. The default value is “pause”.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black;letter-spacing:-1.0pt'><b>zippScript_IdleScript( 30; “MyFile”; “LogoutUser”
+)</b></span><span style='font-size:10.0pt;font-family:Verdana;color:black'>
+will perform the </span><span style='font-size:10.0pt;font-family:Courier;
+color:black;letter-spacing:-1.0pt'><b>LogoutUser</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> script after
+approximately 30 minutes of no user activity.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_GetIdleScript"></a>zippScript_GetIdleScript<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Returns information about the idle script trigger in a
+pipe-delimited (“|”) string.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_GetIdleScript</b></span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'> returns an empty string when no idle script
+trigger has been set, or after an idle script trigger has been activated.</span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_GetIdleScript</b></span><span style='font-size:10.0pt;
+font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>returns </span><span style='font-size:10.0pt;
+font-family:"Courier New";color:black'><b>“30|SomeFile|LogoutUser”</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> when an idle script
+trigger has been set to run the </span><span style='font-size:10.0pt;
+font-family:"Courier New";color:black'><b>LogoutUser </b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'>script after 30
+minutes of no user activity.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Note</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>This function will return an empty string when no idle script
+trigger has been set, or after an idle script trigger has been activated.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>FileMakerÕs text manipulation functions may be used to extract
+individual pieces from the string of scheduled script trigger information.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_CancelIdleScript"></a>zippScript_CancelIdleScript
+  <o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Cancel a previously set idle script trigger before the time-out
+event has occurred.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_CancelIdleScript</b></span><span style='font-size:
+10.0pt;font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>cancels any pending idle script trigger. No
+value is returned.</span><span style='font-size:10.0pt;font-family:Courier;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Note</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>This function may be called at any time, even if an idle script
+has not been scheduled or the time-out event has occurred and the idle script
+has already been triggered.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Any pending idle script trigger will be canceled and the details
+of that trigger will be forgotten. A subsequent call to </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>zippScript_GetIdleScript</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> will return an empty
+string.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>You may want to call this function if you close the file but do
+not quit FileMaker. An idle script trigger calling a script in the closed file
+will attempt to perform the script and will silently fail when the file cannot
+be found.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_EnableTriggers"></a>zippScript_EnableTriggers<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Allow <i>zippScript</i></span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'> to perform immediate and scheduled script
+triggers.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_EnableTriggers</b></span><span style='font-size:
+10.0pt;font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>will allow processing of script triggers. No
+value is returned.</span><span style='font-size:10.0pt;font-family:Courier;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Note</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>This function will re-enable script triggers for all open files.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>A pending scheduled script trigger whose event time has passed
+during the period that script triggers were disabled will be activated shortly
+after script triggers are re-enabled.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Any pending scheduled script trigger may be canceled by calling </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>zippScript_CancelScheduledScript</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> after calling </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>zippScript_DisableTriggers</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> or before calling
+this function.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>See also </span><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_DisableTriggers</b></span><span style='font-size:
+10.0pt;font-family:Verdana;color:black'>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_DisableTriggers"></a>zippScript_DisableTriggers<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Prevent <i>zippScript</i></span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'> from performing any script triggers.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_DisableTriggers</b></span><span style='font-size:
+10.0pt;font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>will prevent processing of all script triggers
+until triggers are re-enabled. No value is returned.</span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Note</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>This function will disable script triggers for all open files.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>You will often want to do this as part of a scripted process that
+modifies fields that have script triggers attached so that the changes made to
+those records will not attempt to run the script triggers. You may want to
+disable triggers at the beginning of the script and re-enable them at the end
+of the script.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>While triggers are disabled, any call to </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>zippScript_PerformScript</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> will be ignored and
+no script will be triggered. You may still use </span><span style='font-size:
+10.0pt;font-family:Courier;color:black'><b>zippScript_ScheduleScript</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'>, but no scheduled
+script triggers will be activated when event times occur.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>A pending scheduled script trigger will not be automatically
+canceled but will be activated when script triggers are re-enabled.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>See also </span><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_EnableTriggers</b></span><span style='font-size:
+10.0pt;font-family:Verdana;color:black'>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:13.0pt;font-family:Verdana;
+color:#0F5499'><b><a name="zippScript_GetTriggerState"></a>zippScript_GetTriggerState<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Description</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Returns a boolean value indicating whether script triggers are
+currently enabled.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Examples</b></span><span style='font-size:10.0pt;font-family:
+Verdana;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_GetTriggerState</b></span><span style='font-size:
+10.0pt;font-family:Courier;color:black'> </span><span style='font-size:10.0pt;
+font-family:Verdana;color:black'>returns </span><span style='font-size:10.0pt;
+font-family:"Courier New";color:black'><b>1</b></span><span style='font-size:
+10.0pt;font-family:Verdana;color:black'> if script triggers are currently
+enabled or </span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'><b>0</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'> if script triggers have been disabled.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><b>Note</b></span><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>Script triggers may be temporarily enabled or disabled by using
+the </span><span style='font-size:10.0pt;font-family:Courier;color:black'><b>zippScript_EnableTriggers</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> or </span><span
+style='font-size:10.0pt;font-family:Courier;color:black'><b>zippScript_DisableTriggers</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'> functions,
+respectively.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;
+color:black'>See also </span><span style='font-size:10.0pt;font-family:Courier;
+color:black'><b>zippScript_EnableTriggers</b></span><span style='font-size:
+10.0pt;font-family:Verdana;color:black'> and </span><span style='font-size:
+10.0pt;font-family:Courier;color:black'><b>zippScript_DisableTriggers</b></span><span
+style='font-size:10.0pt;font-family:Verdana;color:black'>.</span></p>
+
+</div>
+
+</body>
+
+</html>
