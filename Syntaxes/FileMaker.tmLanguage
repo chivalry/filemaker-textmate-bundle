@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>calc</string>
+		<string>fmfn</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>/\*\*|\{\s*$</string>

@@ -448,6 +448,18 @@
 			<string>6E3963FC-90D9-4DA6-9E62-346F6B4E288C</string>
 			<string>05549DB5-E80B-45D8-9C7E-D164C478DAEE</string>
 			<string>1114EE55-A97C-4B5A-B163-8C173C04405A</string>
+			<string>929B57EE-8A6E-43BC-B06B-980F4473B5F3</string>
+			<string>73EC76BD-48CD-4306-867F-CDDC924E36B9</string>
+			<string>379A82B7-27DA-4ECE-B2CB-A507906778EC</string>
+			<string>04DC47C3-F718-44F7-8F5F-5E4B79ED6B7B</string>
+			<string>6CA8D1D2-4BE1-4A9E-9BFE-DD65A062A624</string>
+			<string>A62E1356-70DB-4497-83C1-553EAA8FC513</string>
+			<string>544CBCF3-4CBD-4300-A5C9-7C732571919F</string>
+			<string>57700365-563D-4115-87B1-3E31F4CE21E9</string>
+			<string>E01F0536-B06A-412D-B4E5-FF388F56E9C5</string>
+			<string>907E3929-3DD0-41EF-AA76-FFA8B3DB77C8</string>
+			<string>1CA46410-3203-4FAD-825D-483972291D06</string>
+			<string>5DE19A9F-7CBE-4874-AC92-0C12B3FB296A</string>
 		</array>
 		<key>items</key>
 		<array>
@@ -481,6 +493,7 @@
 					<string>3F0CDF22-0F24-4AB5-89EE-50FED54522EA</string>
 					<string>54DF358D-81B1-45C9-A180-E867E500222C</string>
 					<string>A36134CB-CE94-455B-98FC-675068241E28</string>
+					<string>4AFB8994-3E28-4DE4-944B-7CB211656034</string>
 				</array>
 				<key>name</key>
 				<string>Plugins</string>
@@ -614,6 +627,24 @@
 				</array>
 				<key>name</key>
 				<string>Autoupdate</string>
+			</dict>
+			<key>4AFB8994-3E28-4DE4-944B-7CB211656034</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>24415908-53CD-4B17-B2FC-9880BDE694CD</string>
+					<string>F180C01F-6844-4562-A133-70B9BFEEAC5C</string>
+					<string>1397E45E-1527-4651-B1D8-103A77C4ABBA</string>
+					<string>57530947-E99F-414D-B0FF-B495C6EB770D</string>
+					<string>6E53185E-DD16-42EF-813D-55D4A6493658</string>
+					<string>E1BDDB40-1107-42AE-B7E9-2CD77C4FAE17</string>
+					<string>E42F02AA-C4E9-41D4-B397-E564C703B2A5</string>
+					<string>EAC5AB9F-EBC5-4404-A81E-08AB6DBBA8CE</string>
+					<string>913E3C15-895B-4803-8F1A-6E47120C317F</string>
+					<string>AA802C00-A389-4EF2-94D5-7B3EEB263308</string>
+				</array>
+				<key>name</key>
+				<string>DoScript</string>
 			</dict>
 			<key>4E3C664E-9324-46FA-A789-6876617F75EC</key>
 			<dict>
@@ -1536,6 +1567,17 @@
 		<string>2F44B2AC-BCDC-4E11-927A-A7FEE527100D</string>
 		<string>D507E9EA-6E92-4082-BE0F-064E9DDA84E0</string>
 		<string>CE4A3521-55CA-4382-9FFE-63DE8390766B</string>
+		<string>5DE19A9F-7CBE-4874-AC92-0C12B3FB296A</string>
+		<string>24415908-53CD-4B17-B2FC-9880BDE694CD</string>
+		<string>F180C01F-6844-4562-A133-70B9BFEEAC5C</string>
+		<string>1397E45E-1527-4651-B1D8-103A77C4ABBA</string>
+		<string>57530947-E99F-414D-B0FF-B495C6EB770D</string>
+		<string>6E53185E-DD16-42EF-813D-55D4A6493658</string>
+		<string>E1BDDB40-1107-42AE-B7E9-2CD77C4FAE17</string>
+		<string>E42F02AA-C4E9-41D4-B397-E564C703B2A5</string>
+		<string>EAC5AB9F-EBC5-4404-A81E-08AB6DBBA8CE</string>
+		<string>913E3C15-895B-4803-8F1A-6E47120C317F</string>
+		<string>AA802C00-A389-4EF2-94D5-7B3EEB263308</string>
 		<string>0A7634DD-330D-48ED-B3A8-7F9F43C677E8</string>
 		<string>B0CBEB13-483D-44DD-B21A-2B8D707407A2</string>
 		<string>7224FD8D-AEC5-47EB-A3F8-E57E5FA74A6C</string>
