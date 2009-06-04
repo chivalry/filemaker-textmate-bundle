@@ -257,7 +257,9 @@ $tags = {
   "WordCount"                        =&gt; "http://www.filemaker.com/help/html/func_ref3.33.89.html",
   "Year"                             =&gt; "http://www.filemaker.com/help/html/func_ref1.31.24.html",
   "YearName"                         =&gt; "http://www.filemaker.com/help/html/func_ref1.31.25.html",
-  "FMSAUC_Version"                   =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/zippScript.html#zippScript_CancelIdleScript",
+  "FMSAUC_Version"                   =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/AutoUpdate.html#FMSAUC_Version",
+  "FMSAUC_FindPlugin"                =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/AutoUpdate.html#FMSAUC_FindPlugin",
+  "FMSAUC_UpdatePlugin"              =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/AutoUpdate.html#FMSAUC_UpdatePlugin",
   "zippScript_CancelIdleScript"      =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/zippScript.html#zippScript_CancelIdleScript",
   "zippScript_CancelScheduledScript" =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/zippScript.html#zippScript_CancelScheduledScript",
   "zippScript_DisableTriggers"       =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/zippScript.html#zippScript_DisableTriggers",
@@ -282,6 +284,7 @@ $tags = {
   "PHP_VersionAutoUpdate"            =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_VersionAutoUpdate",
 
   
+
 
 }
 
