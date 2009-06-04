@@ -37,6 +37,9 @@ UNTOUCHED
 DONE
 - Integrate FileMaker PHP API bundle.
 
+UNTOUCHED
+- Provide documentation lookup for SmartPill PHP FileMaker Extension functions.
+
 That's at a minimum. Additionally, if I can figure out a good way to use AppleScript or something else to help out the process, I'd like to include the following.
 
 - Code completion for any custom functions available in the open files.
