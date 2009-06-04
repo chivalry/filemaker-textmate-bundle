@@ -268,7 +268,20 @@ $tags = {
   "zippScript_IdleScript"            =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/zippScript.html#zippScript_IdleScript",
   "zippScript_PerformScript"         =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/zippScript.html#zippScript_PerformScript",
   "zippScript_ScheduleScript"        =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/zippScript.html#zippScript_ScheduleScript",
-  "zippScript_Version"               =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/zippScript.html#zippScript_Version"
+  "zippScript_Version"               =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/zippScript.html#zippScript_Version",
+  "PHP_Control"                      =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_Control",
+  "PHP_Execute"                      =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_Execute",
+  "PHP_ExecuteToContainer"           =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_ExecuteToContainer",
+  "PHP_GetLastCode"                  =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_GetLastCode",
+  "PHP_GetLastError"                 =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_GetLastError",
+  "PHP_LoadFunctions"                =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_LoadFunctions",
+  "PHP_LoadFunctionsFromURL"         =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_LoadFunctionsFromURL",
+  "PHP_Register"                     =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_Register",
+  "PHP_Timeout"                      =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_Timeout",
+  "PHP_Version"                      =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_Version",
+  "PHP_VersionAutoUpdate"            =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_VersionAutoUpdate",
+
+  
 
 }
 
