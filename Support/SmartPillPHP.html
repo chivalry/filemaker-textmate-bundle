@@ -155,7 +155,7 @@ PHP_Control( 0; &quot;secret&quot;</span><span class="code"> )<br />
       <br />
     Pass in a <span class="code">1</span> if you only want the error number to be returned. Pass in a <span class="code">2</span> to return only the error description.<br />
       <br />
-    See the <a href="PHP_FM_Extension#fm_set_error">fm_set_error</a> function in the PHP FileMaker Extension section below for information on how to return use-defined errors from your PHP code.</dd>
+    See the <a href="PHP_FM_Extension.html#fm_set_error">fm_set_error</a> function in the PHP FileMaker Extension section below for information on how to return use-defined errors from your PHP code.</dd>
     <dt> Examples </dt>
     <dd> <span class="code">PHP_GetLastError</span><br />
       <br />
@@ -321,7 +321,7 @@ PHP_Control( 0; &quot;secret&quot;</span><span class="code"> )<br />
     <br />
   Other than the fileName parameter, this function is identical to PHP_Execute.<br />
     <br />
-  As of version 2.0, the fileName parameter now supports Unicode characters and is optional (use the <a href="PHP_FM_Extension#fm_set_container_file_name">fm_set_container_file_name</a> function to set the file name from without your PHP code). Note that if the fileName isn't set, error 314 &quot;Container file name not set&quot; will be returned.<br />
+  As of version 2.0, the fileName parameter now supports Unicode characters and is optional (use the <a href="PHP_FM_Extension.html#fm_set_container_file_name">fm_set_container_file_name</a> function to set the file name from without your PHP code). Note that if the fileName isn't set, error 314 &quot;Container file name not set&quot; will be returned.<br />
   <br />
   The file extension should be included in the file name, for example, &quot;scodigo-logo.<strong>png</strong>&quot;. If the plug-in recognizes the file extension and considers it to be a graphic file, it will generate a preview for display. The supported graphic file types are bmp, gif, giff, jpeg, jpg, pct, pdf, png, psd, tif, tiff. Files are stored in the database just as if you had imported them without &quot;Store only a reference to the file&quot; checked.<br />
   <br />
