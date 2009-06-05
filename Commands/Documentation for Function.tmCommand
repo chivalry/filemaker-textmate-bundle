@@ -282,8 +282,35 @@ $tags = {
   "PHP_Timeout"                      =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_Timeout",
   "PHP_Version"                      =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_Version",
   "PHP_VersionAutoUpdate"            =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPillPHP.html#PHP_VersionAutoUpdate",
-
-  
+  "fm_close_progress_bar"            =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_close_progress_bar",
+  "fm_evaluate"                      =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_evaluate",
+  "fm_get_defined_variables"         =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_get_defined_variables",
+  "fm_get_last_error"                =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_get_last_error",
+  "fm_get_parameter"                 =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_get_parameter",
+  "fm_get_variable"                  =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_get_variable",
+  "fm_isset"                         =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_isset",
+  "fm_new_progress_bar"              =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_new_progress_bar",
+  "fm_perform_script"                =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_perform_script",
+  "fm_progress_bar_control"          =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_progress_bar_control",
+  "fm_progress_bar_position"         =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_progress_bar_position",
+  "fm_progress_bar_timeout"          =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_progress_bar_timeout",
+  "fm_save_file"                     =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_save_file",
+  "fm_script_control"                =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_script_control",
+  "fm_select_file"                   =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_select_file",
+  "fm_select_folder"                 =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_select_folder",
+  "fm_set_container_file_name"       =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_set_container_file_name",
+  "fm_set_error"                     =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_set_error",
+  "fm_set_variable"                  =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_set_variable",
+  "fm_sql_execute"                   =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_sql_execute",
+  "fm_sql_select"                    =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_sql_select",
+  "fm_unset"                         =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/PHP_FM_Extension.html#fm_unset",
+  "FM_DESKTOP_PATH"                  =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_DESKTOP_PATH",
+  "FM_DOCUMENTS_PATH"                =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_DOCUMENTS_PATH",
+  "FM_EXTENSIONS_PATH"               =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_EXTENSIONS_PATH",
+  "FM_PHPX_PATH"                     =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_PHPX_PATH",
+  "FM_PHP_SUPPORT_PATH"              =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_PHP_SUPPORT_PATH",
+  "FM_PREFERENCES_PATH"              =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_PREFERENCES_PATH",
+  "FM_TEMPORARY_PATH"                =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_TEMPORARY_PATH"
 
 
 }
