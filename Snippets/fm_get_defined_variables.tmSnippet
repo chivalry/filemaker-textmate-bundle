@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fm_get_defined_variables()</string>
+	<string>fm_get_defined_variables()$0</string>
 	<key>name</key>
 	<string>fm_get_defined_variables</string>
 	<key>tabTrigger</key>
