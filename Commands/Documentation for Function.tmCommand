@@ -310,9 +310,21 @@ $tags = {
   "FM_PHPX_PATH"                     =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_PHPX_PATH",
   "FM_PHP_SUPPORT_PATH"              =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_PHP_SUPPORT_PATH",
   "FM_PREFERENCES_PATH"              =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_PREFERENCES_PATH",
-  "FM_TEMPORARY_PATH"                =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_TEMPORARY_PATH"
-
-
+  "FM_TEMPORARY_PATH"                =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/SmartPill_PHP_Constants.html#FM_TEMPORARY_PATH",
+  "mFMb_DoScript"                    =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DoScript",
+  "mFMb_DoScript_Version"            =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DoScript_Version",
+  "mFMb_DS_GetAlarm"                 =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_GetAlarm",
+  "mFMb_DS_GetIdleCounter"           =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_GetIdleCounter",
+  "mFMb_DS_GetIdleMode"              =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_GetIdleMode",
+  "mFMb_DS_GetIdleTimer"             =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_GetIdleTimer",
+  "mFMb_DS_GetSeconds"               =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_GetSeconds",
+  "mFMb_DS_GetTrigger"               =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_GetTrigger",
+  "mFMb_DS_LastErrNum"               =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_LastErrNum",
+  "mFMb_DS_LastErrText"              =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_LastErrText",
+  "mFMb_DS_SetAlarm"                 =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_SetAlarm",
+  "mFMb_DS_SetIdleTimer"             =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_SetIdleTimer",
+  "mFMb_DS_SetTrigger"               =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_SetTrigger",
+  "mFMb_DS_Toggle"                   =&gt; "file:///" + ENV["TM_BUNDLE_SUPPORT"] + "/DoScript.html#mFMb_DS_Toggle"
 }
 
 tag = ENV["TM_SELECTED_TEXT"].gsub /\s/, ''
