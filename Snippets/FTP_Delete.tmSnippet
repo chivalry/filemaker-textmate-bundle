@@ -2,9 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>content</key>
+	<string>FTP_Delete${1:( ${2:filePath} )}$0</string>
 	<key>name</key>
-	<string>-- SmartPill PHPx Full Name Snippets --------------</string>
+	<string>FTP_Delete</string>
+	<key>tabTrigger</key>
+	<string>FTP_Delete</string>
 	<key>uuid</key>
-	<string>29294F71-16BA-41C0-883B-963BFA27F80D</string>
+	<string>EB3E3927-68F4-4E74-A826-0A8DE91775F8</string>
 </dict>
 </plist>

@@ -2,9 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>content</key>
+	<string>Encr_Encrypt( ${1:password}; ${2:text} )$0</string>
 	<key>name</key>
-	<string>-- SmartPill PHPx Full Name Snippets --------------</string>
+	<string>Encr_Encrypt</string>
+	<key>tabTrigger</key>
+	<string>Encr_Encrypt</string>
 	<key>uuid</key>
-	<string>29294F71-16BA-41C0-883B-963BFA27F80D</string>
+	<string>485BBC65-C8BC-4619-B113-465BB3EB7AC8</string>
 </dict>
 </plist>

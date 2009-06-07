@@ -2,9 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>content</key>
+	<string>File_Size( ${1:path}${2:; ${3:formatResult}} )$0</string>
 	<key>name</key>
-	<string>-- SmartPill PHPx Full Name Snippets --------------</string>
+	<string>File_Size</string>
+	<key>tabTrigger</key>
+	<string>File_Size</string>
 	<key>uuid</key>
-	<string>29294F71-16BA-41C0-883B-963BFA27F80D</string>
+	<string>78F42595-0FDE-4FF1-AD21-6830A8FC790D</string>
 </dict>
 </plist>
