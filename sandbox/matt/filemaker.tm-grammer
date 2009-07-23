@@ -1,0 +1,65 @@
+{	scopeName = 'source.filemaker';
+	fileTypes = ( 'calc', 'fmfn' );
+	foldingStartMarker = '/\*\*|\{\s*$';
+	foldingStopMarker = '\*\*/|^\s*\}';
+	patterns = (
+		{	name = 'keyword.language.filemaker';
+			match = '(?i)\b(Abs|Acos|Asin|Atan|Average|Case|Ceiling|Char|Choose|Code|Combination|Cos|Count|DatabaseNames|Date|Day|DayName|DayNameJ|DayOfWeek|DayOfYear|Degrees|Div|Evaluate|EvaluationError|Exact|Exp|Extend|External|Factorial|FieldBounds|FieldComment|FieldIDs|FieldNames|FieldRepetitions|FieldStyle|FieldType|Filter|FilterValues|Floor|FV|Get|GetAsBoolean|GetAsCSS|GetAsDate|GetAsNumber|GetAsSVG|GetAsText|GetAsTime|GetAsTimestamp|GetAsURLEncoded|GetField|GetFieldName|GetLayoutObjectAttribute|GetNextSerialValue|GetNthRecord|GetRepetition|GetSummary|GetValue|Hiragana|Hour|If|Int|IsEmpty|IsValid|IsValidExpression|KanaHankaku|KanaZenkaku|KanjiNumeral|Katakana|Last|LayoutIDs|LayoutNames|LayoutObjectNames|Left|LeftValues|LeftWords|Length|Let|Lg|List|Ln|Log|Lookup|LookupNext|Lower|Max|Middle|MiddleValues|MiddleWords|Min|Minute|Mod|Month|MonthName|MonthNameJ|NPV|NumToJText|PatternCount|Pi|PMT|Position|Proper|PV|Quote|Radians|Random|RelationInfo|Replace|RGB|Right|RightValues|RightWords|RomanHankaku|RomanZenkaku|Round|ScriptIDs|ScriptNames|Seconds|Self|SerialIncrement|SetPrecision|Sign|Sin|Sqrt|StDev|StDevP|Substitute|Sum|TableIDs|TableNames|Tan|TextColor|TextColorRemove|TextFont|TextFontRemove|TextFormatRemove|TextSize|TextSizeRemove|TextStyleAdd|TextStyleRemove|Time|Timestamp|Trim|TrimAll|Truncate|Upper|ValueCount|ValueListIDs|ValueListItems|ValueListNames|Variance|VarianceP|WeekOfYear|WeekOfYearFiscal|WindowNames|WordCount|Year|YearName)(?=\s*\()';
+		},
+		{	name = 'string.quoted.double.filemaker';
+			begin = '"';
+			end = '"';
+			patterns = (
+				{	name = 'constant.character.escape.filemaker';
+					match = '\\"';
+				},
+			);
+		},
+		{	name = 'comment.block.filemaker';
+			begin = '/\*';
+			end = '\*/';
+			captures = { 0 = { name = 'punctuation.definition.comment.filemaker'; }; };
+		},
+		{	name = 'comment.line.double-slash.filemaker';
+			match = '(//).*?($\n?|(?=\?>))';
+			captures = { 1 = { name = 'punctuation.definition.comment.filemaker'; }; };
+		},
+		{	name = 'constant.language.filemaker';
+			match = '(?i)\b(AccountName|ActiveFieldContents|ActiveFieldName|ActiveFieldTableName|ActiveLayoutObjectName|ActiveModifierKeys|ActiveRepetitionNumber|ActiveSelectionSize|ActiveSelectionStart|AllowAbortState|AllowToolbarState|AllStyles|ApplicationLanguage|ApplicationVersion|Bold|bottom|bounds|CalculationRepetitionNumber|CentralEurope|Condense|containedObjects|containsFocus|content|Cryllic|CurrentDate|CurrentHostTimestamp|CurrentTime|CurrentTimestamp|CustomMenuSetName|DesktopPath|DocumentsPath|DocumentsPathListing|DoubleUnderline|enclosingObject|endPoint|ErrorCaptureState|Extend|ExtendedPrivileges|FileMakerPath|FileName|FilePath|FileSize|FoundCount|Greek|hasFocus|height|HighContrastColor|HighContrastState|HostApplicationVersion|HostIPAddress|HostName|isFrontTabPanel|Italic|LastError|LastMessageChoice|LastODBCError|LayoutAccess|LayoutCount|LayoutName|LayoutNumber|LayoutTableName|LayoutViewState|left|Lowercase|MultiUserState|NetworkProtocol|objectType|OEM|Other|PageNumber|Plain|PortalRowNumber|PreferencesPath|PrinterName|PrivilegeSetName|RecordAccess|RecordID|RecordModificationCount|RecordNumber|RecordOpenCount|RecordOpenState|RequestCount|RequestOmitState|right|Roman|rotation|ScreenDepth|ScreenHeight|ScreenWidth|ScriptName|ScriptParameter|ScriptResult|ShiftJIS|SimplifiedChinese|SmallCaps|SortState|source|startPoint|StatusAreaState|Strikethrough|Subscript|Superscript|Symbol|SystemDrive|SystemIPAddress|SystemLanguage|SystemNICAddress|SystemPlatform|SystemVersion|TemporaryPath|TextRulerVisible|Titlecase|top|TotalRecordCount|TraditionalChinese|TriggerKeystroke|TriggerModifierKeys|Underline|Uppercase|UserCount|UserName|UseSystemFormatsState|width|WindowContentHeight|WindowContentWidth|WindowDesktopHeight|WindowDesktopWidth|WindowHeight|WindowLeft|WindowMode|WindowName|WindowTop|WindowVisible|WindowWidth|WindowZoomLevel|WordUnderline)\b';
+		},
+		{	name = 'variable.script_variable.local.filemaker';
+			match = '(\$)[a-zA-Z_][a-zA-Z0-9_]*?\b';
+		},
+		{	name = 'variable.script_variable.global.filemaker';
+			match = '(\$\$)[a-zA-Z_][a-zA-Z0-9_]*?\b';
+		},
+		{	name = 'constant.numeric.filemaker';
+			match = '\b-?[1-9]\d*(\.[0-9]+)?\b';
+		},
+		{	name = 'keyword.operator.arithmetic.filemaker';
+			match = '(\-|\+|\*|/)';
+		},
+		{	name = 'keyword.operator.logical.filemaker';
+			match = '\b(and|or|xor|not)\b';
+		},
+		{	name = 'keyword.operator.comparison.filemaker';
+			match = '(=|<=|≤|>=|≥|<>|≠|<|>)';
+		},
+		{	name = 'keyword.operator.string.filemaker';
+			match = '&';
+		},
+		{	name = 'keyword.operator.assignment.filemaker';
+			match = '=';
+		},
+		{	include = '#get'; },
+	);
+	repository = {
+	   	get = {
+    		patterns = (
+    			{	name = 'keyword.language.get.filemaker';
+    				match = '(?i)(?!get(\s*)?)\((.*)\)';
+    			},
+    		);
+    	}; 
+	};
+}
