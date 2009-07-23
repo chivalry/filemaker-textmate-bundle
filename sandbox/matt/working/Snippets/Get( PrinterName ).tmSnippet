@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>PrinterName</string>
+	<key>name</key>
+	<string>PrinterName</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
+	<key>tabTrigger</key>
+	<string>n</string>
+	<key>uuid</key>
+	<string>68685ECC-57E9-46DA-8109-0BDE10B467D7</string>
+</dict>
+</plist>
