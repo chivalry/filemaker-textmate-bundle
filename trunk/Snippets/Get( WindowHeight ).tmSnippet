@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>WindowHeight</string>
+	<string>Get( WindowHeight )</string>
 	<key>name</key>
-	<string>WindowHeight</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( WindowHeight )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>wh</string>
 	<key>uuid</key>
 	<string>973CBC6D-59E0-4864-874E-9F7F25EE4699</string>
 </dict>

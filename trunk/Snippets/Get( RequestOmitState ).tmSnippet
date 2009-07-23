@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>RequestOmitState</string>
+	<string>Get( RequestOmitState )</string>
 	<key>name</key>
-	<string>RequestOmitState</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( RequestOmitState )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>rqos</string>
 	<key>uuid</key>
 	<string>BBCA22F7-1CF0-42B3-944A-3820D93F9E08</string>
 </dict>

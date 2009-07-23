@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SystemNICAddress</string>
+	<string>Get( SystemNICAddress )</string>
 	<key>name</key>
-	<string>SystemNICAddress</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( SystemNICAddress )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>snic</string>
 	<key>uuid</key>
 	<string>F4B01AD8-51F0-4EB8-BFCC-24276F9ECA2C</string>
 </dict>

@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>ScriptName</string>
+	<string>Get( ScriptName )</string>
 	<key>name</key>
-	<string>ScriptName</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( ScriptName )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>sn</string>
 	<key>uuid</key>
 	<string>BCA67623-E04A-4DA3-A3C3-8D02AC84CB48</string>
 </dict>

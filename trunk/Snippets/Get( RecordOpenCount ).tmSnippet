@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>RecordOpenCount</string>
+	<string>Get( RecordOpenCount )</string>
 	<key>name</key>
-	<string>RecordOpenCount</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( RecordOpenCount )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>roc</string>
 	<key>uuid</key>
 	<string>EB58C2DB-D472-479F-B861-431378E9FAB8</string>
 </dict>

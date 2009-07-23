@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>MultiUserState</string>
+	<string>Get( MultiUserState )</string>
 	<key>name</key>
-	<string>MultiUserState</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( MultiUserState )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>mus</string>
 	<key>uuid</key>
 	<string>3B5849D8-2621-4B5D-A3BD-73C256F85BFE</string>
 </dict>

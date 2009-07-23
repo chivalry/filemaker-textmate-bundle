@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>FoundCount</string>
+	<string>Get( FoundCount )</string>
 	<key>name</key>
-	<string>FoundCount</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( FoundCount )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>fc</string>
 	<key>uuid</key>
 	<string>0527C452-81E7-463B-9342-56F22BCCCB33</string>
 </dict>

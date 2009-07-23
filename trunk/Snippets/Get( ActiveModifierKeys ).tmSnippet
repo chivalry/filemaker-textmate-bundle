@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>ActiveModifierKeys</string>
+	<string>Get( ActiveModifierKeys )</string>
 	<key>name</key>
-	<string>ActiveModifierKeys</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( ActiveModifierKeys )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>amk</string>
 	<key>uuid</key>
 	<string>D0B13988-28B5-4923-A47D-72068A555C35</string>
 </dict>

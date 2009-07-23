@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>RecordID</string>
+	<string>Get( RecordID )</string>
 	<key>name</key>
-	<string>RecordID</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( RecordID )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>rid</string>
 	<key>uuid</key>
 	<string>92F11963-108B-4555-BE25-ECF2B917DE84</string>
 </dict>

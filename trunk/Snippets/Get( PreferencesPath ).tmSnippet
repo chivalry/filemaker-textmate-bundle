@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>PreferencesPath</string>
+	<string>Get( PreferencesPath )</string>
 	<key>name</key>
-	<string>PreferencesPath</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( PreferencesPath )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>pp</string>
 	<key>uuid</key>
 	<string>56D874CB-110F-461E-A7BC-D3940541EFA1</string>
 </dict>

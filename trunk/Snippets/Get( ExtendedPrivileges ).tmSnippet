@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>ExtendedPrivileges</string>
+	<string>Get( ExtendedPrivileges )</string>
 	<key>name</key>
-	<string>ExtendedPrivileges</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( ExtendedPrivileges )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>ep</string>
 	<key>uuid</key>
 	<string>6DCA4E73-55B1-49E9-A30A-B02E2789ADBD</string>
 </dict>

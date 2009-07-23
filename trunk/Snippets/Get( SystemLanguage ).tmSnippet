@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SystemLanguage</string>
+	<string>Get( SystemLanguage )</string>
 	<key>name</key>
-	<string>SystemLanguage</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( SystemLanguage )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>sl</string>
 	<key>uuid</key>
 	<string>6EDA407F-979A-485A-9715-04BDD198DD3E</string>
 </dict>

@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>DesktopPath</string>
+	<string>Get( DesktopPath )</string>
 	<key>name</key>
-	<string>DesktopPath</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( DesktopPath )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>dskp</string>
 	<key>uuid</key>
 	<string>60DC0C45-156A-4F5F-975A-33883E3108BA</string>
 </dict>

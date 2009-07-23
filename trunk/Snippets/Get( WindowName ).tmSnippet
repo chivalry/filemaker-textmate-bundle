@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>WindowName</string>
+	<string>Get( WindowName )</string>
 	<key>name</key>
-	<string>WindowName</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( WindowName )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>wn</string>
 	<key>uuid</key>
 	<string>F74B12B6-FD3F-4001-AABB-BD9B409D18B6</string>
 </dict>

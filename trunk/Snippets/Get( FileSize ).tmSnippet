@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>FileSize</string>
+	<string>Get( FileSize )</string>
 	<key>name</key>
-	<string>FileSize</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( FileSize )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>fs</string>
 	<key>uuid</key>
 	<string>C1D88A96-7E72-4642-B241-285EE7A2541D</string>
 </dict>
