@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( ActiveRepetitionNumber )</string>
+	<string>ActiveRepetitionNumber</string>
 	<key>name</key>
-	<string>Get( ActiveRepetitionNumber )</string>
+	<string>ActiveRepetitionNumber</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>arn</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>F367FF58-F570-4AB2-831F-5CC96B2F3876</string>
 </dict>

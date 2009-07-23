@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( ActiveSelectionStart )</string>
+	<string>ActiveSelectionStart</string>
 	<key>name</key>
-	<string>Get( ActiveSelectionStart )</string>
+	<string>ActiveSelectionStart</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>asst</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>D233D161-8CF3-40C7-A176-BF0C4A7876EB</string>
 </dict>

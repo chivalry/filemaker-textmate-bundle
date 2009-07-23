@@ -17,9 +17,9 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(Average|Count|List|Max|Min|StDev|StDevP|Sum|Variance|VarianceP|Date|Day|DayName|DayNameJ|DayOfWeek|DayOfYear|Month|MonthName|MonthNameJ|WeekOfYear|WeekOfYearFiscal|Year|YearName|DatabaseNames|FieldBounds|FieldComment|FieldIDs|FieldNames|FieldRepetitions|FieldStyle|FieldType|GetNextSerialValue|LayoutIDs|LayoutNames|LayoutObjectNames|RelationInfo|ScriptIDs|ScriptNames|TableIDs|TableNames|ValueListIDs|ValueListItems|ValueListNames|WindowNames|External|FV|NPV|PMT|PV|Case|Choose|Evaluate|EvaluationError|GetAsBoolean|GetField|GetFieldName|GetLayoutObjectAttribute|GetNthRecord|If|IsEmpty|IsValid|IsValidExpression|Let|Lookup|LookupNext|Self|Abs|Ceiling|Combination|Div|Exp|Factorial|Floor|Int|Lg|Ln|Log|Mod|Random|Round|SetPrecision|Sign|Sqrt|Truncate|Extend|GetRepetition|Last|GetSummary|Char|Code|Exact|Filter|FilterValues|GetAsCSS|GetAsDate|GetAsNumber|GetAsSVG|GetAsText|GetAsTime|GetAsTimestamp|GetAsURLEncoded|GetValue|Hiragana|KanaHankaku|KanaZenkaku|KanjiNumeral|Katakana|Left|LeftValues|LeftWords|Length|Lower|Middle|MiddleValues|MiddleWords|NumToJText|PatternCount|Position|Proper|Quote|Replace|Right|RightValues|RightWords|RomanHankaku|RomanZenkaku|SerialIncrement|Substitute|Trim|TrimAll|Upper|ValueCount|WordCount|RGB|TextColor|TextColorRemove|TextFont|TextFontRemove|TextFormatRemove|TextSize|TextSizeRemove|TextStyleAdd|TextStyleRemove|Hour|Minute|Seconds|Time|Timestamp|Acos|Asin|Atan|Cos|Degrees|Pi|Radians|Sin|Tan|Get)\b</string>
+			<string>(?i)\b(Abs|Acos|Asin|Atan|Average|Case|Ceiling|Char|Choose|Code|Combination|Cos|Count|DatabaseNames|Date|Day|DayName|DayNameJ|DayOfWeek|DayOfYear|Degrees|Div|Evaluate|EvaluationError|Exact|Exp|Extend|External|Factorial|FieldBounds|FieldComment|FieldIDs|FieldNames|FieldRepetitions|FieldStyle|FieldType|Filter|FilterValues|Floor|FV|Get|GetAsBoolean|GetAsCSS|GetAsDate|GetAsNumber|GetAsSVG|GetAsText|GetAsTime|GetAsTimestamp|GetAsURLEncoded|GetField|GetFieldName|GetLayoutObjectAttribute|GetNextSerialValue|GetNthRecord|GetRepetition|GetSummary|GetValue|Hiragana|Hour|If|Int|IsEmpty|IsValid|IsValidExpression|KanaHankaku|KanaZenkaku|KanjiNumeral|Katakana|Last|LayoutIDs|LayoutNames|LayoutObjectNames|Left|LeftValues|LeftWords|Length|Let|Lg|List|Ln|Log|Lookup|LookupNext|Lower|Max|Middle|MiddleValues|MiddleWords|Min|Minute|Mod|Month|MonthName|MonthNameJ|NPV|NumToJText|PatternCount|Pi|PMT|Position|Proper|PV|Quote|Radians|Random|RelationInfo|Replace|RGB|Right|RightValues|RightWords|RomanHankaku|RomanZenkaku|Round|ScriptIDs|ScriptNames|Seconds|Self|SerialIncrement|SetPrecision|Sign|Sin|Sqrt|StDev|StDevP|Substitute|Sum|TableIDs|TableNames|Tan|TextColor|TextColorRemove|TextFont|TextFontRemove|TextFormatRemove|TextSize|TextSizeRemove|TextStyleAdd|TextStyleRemove|Time|Timestamp|Trim|TrimAll|Truncate|Upper|ValueCount|ValueListIDs|ValueListItems|ValueListNames|Variance|VarianceP|WeekOfYear|WeekOfYearFiscal|WindowNames|WordCount|Year|YearName)(?=\s*\()</string>
 			<key>name</key>
-			<string>support.function.builtin_functions.filemaker</string>
+			<string>keyword.language.filemaker</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -70,9 +70,9 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(AccountName|ActiveFieldContents|ActiveFieldName|ActiveFieldTableName|ActiveLayoutObjectName|ActiveModifierKeys|ActiveRepetitionNumber|ActiveSelectionSize|ActiveSelectionStart|AllowAbortState|AllowToolbarState|ApplicationLanguage|ApplicationVersion|CalculationRepetitionNumber|CurrentDate|CurrentHostTimestamp|CurrentTime|CurrentTimestamp|CustomMenuSetName|DesktopPath|DocumentsPath|DocumentsPathListing|ErrorCaptureState|ExtendedPrivileges|FileMakerPath|FileName|FilePath|FileSize|FoundCount|HighContrastColor|HighContrastState|HostApplicationVersion|HostIPAddress|HostName|LastError|LastMessageChoice|LastODBCError|LayoutAccess|LayoutCount|LayoutName|LayoutNumber|LayoutTableName|LayoutViewState|MultiUserState|NetworkProtocol|PageNumber|PortalRowNumber|PreferencesPath|PrinterName|PrivilegeSetName|RecordAccess|RecordID|RecordModificationCount|RecordNumber|RecordOpenCount|RecordOpenState|RequestCount|RequestOmitState|ScreenDepth|ScreenHeight|ScreenWidth|ScriptName|ScriptParameter|ScriptResult|SortState|StatusAreaState|SystemDrive|SystemIPAddress|SystemLanguage|SystemNICAddress|SystemPlatform|SystemVersion|TemporaryPath|TextRulerVisible|TotalRecordCount|TriggerKeystroke|TriggerModifierKeys|UserCount|UserName|UseSystemFormatsState|WindowContentHeight|WindowContentWidth|WindowDesktopHeight|WindowDesktopWidth|WindowHeight|WindowLeft|WindowMode|WindowName|WindowTop|WindowVisible|WindowWidth|WindowZoomLevel|Roman|Greek|Cryllic|CentralEurope|ShiftJIS|TraditionalChinese|SimplifiedChinese|OEM|Symbol|Other|Plain|Bold|Italic|Underline|Condense|Extend|Strikethrough|SmallCaps|Superscript|Subscript|Uppercase|Lowercase|Titlecase|WordUnderline|DoubleUnderline|AllStyles|objectType|hasFocus|containsFocus|isFrontTabPanel|bounds|left|right|top|bottom|width|height|rotation|startPoint|endPoint|source|content|enclosingObject|containedObjects)\b</string>
+			<string>(?i)\b(AccountName|ActiveFieldContents|ActiveFieldName|ActiveFieldTableName|ActiveLayoutObjectName|ActiveModifierKeys|ActiveRepetitionNumber|ActiveSelectionSize|ActiveSelectionStart|AllowAbortState|AllowToolbarState|AllStyles|ApplicationLanguage|ApplicationVersion|Bold|bottom|bounds|CalculationRepetitionNumber|CentralEurope|Condense|containedObjects|containsFocus|content|Cryllic|CurrentDate|CurrentHostTimestamp|CurrentTime|CurrentTimestamp|CustomMenuSetName|DesktopPath|DocumentsPath|DocumentsPathListing|DoubleUnderline|enclosingObject|endPoint|ErrorCaptureState|Extend|ExtendedPrivileges|FileMakerPath|FileName|FilePath|FileSize|FoundCount|Greek|hasFocus|height|HighContrastColor|HighContrastState|HostApplicationVersion|HostIPAddress|HostName|isFrontTabPanel|Italic|LastError|LastMessageChoice|LastODBCError|LayoutAccess|LayoutCount|LayoutName|LayoutNumber|LayoutTableName|LayoutViewState|left|Lowercase|MultiUserState|NetworkProtocol|objectType|OEM|Other|PageNumber|Plain|PortalRowNumber|PreferencesPath|PrinterName|PrivilegeSetName|RecordAccess|RecordID|RecordModificationCount|RecordNumber|RecordOpenCount|RecordOpenState|RequestCount|RequestOmitState|right|Roman|rotation|ScreenDepth|ScreenHeight|ScreenWidth|ScriptName|ScriptParameter|ScriptResult|ShiftJIS|SimplifiedChinese|SmallCaps|SortState|source|startPoint|StatusAreaState|Strikethrough|Subscript|Superscript|Symbol|SystemDrive|SystemIPAddress|SystemLanguage|SystemNICAddress|SystemPlatform|SystemVersion|TemporaryPath|TextRulerVisible|Titlecase|top|TotalRecordCount|TraditionalChinese|TriggerKeystroke|TriggerModifierKeys|Underline|Uppercase|UserCount|UserName|UseSystemFormatsState|width|WindowContentHeight|WindowContentWidth|WindowDesktopHeight|WindowDesktopWidth|WindowHeight|WindowLeft|WindowMode|WindowName|WindowTop|WindowVisible|WindowWidth|WindowZoomLevel|WordUnderline)\b</string>
 			<key>name</key>
-			<string>constant.language.php</string>
+			<string>constant.language.filemaker</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -123,6 +123,21 @@
 			<string>keyword.operator.assignment.filemaker</string>
 		</dict>
 	</array>
+	<key>repository</key>
+	<dict>
+		<key>get</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>(?i)(?!get(\s*)?)\((.*)\)</string>
+					<key>name</key>
+					<string>keyword.language.get.filemaker</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
 	<key>scopeName</key>
 	<string>source.filemaker</string>
 	<key>uuid</key>

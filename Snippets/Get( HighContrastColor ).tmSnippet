@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( HighContrastColor )</string>
+	<string>HighContrastColor</string>
 	<key>name</key>
-	<string>Get( HighContrastColor )</string>
+	<string>HighContrastColor</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>hcc</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>2ECE18E3-9958-4881-9E69-E4DE792E888A</string>
 </dict>

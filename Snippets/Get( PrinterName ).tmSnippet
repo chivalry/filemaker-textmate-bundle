@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( PrinterName )</string>
+	<string>PrinterName</string>
 	<key>name</key>
-	<string>Get( PrinterName )</string>
+	<string>PrinterName</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>ptn</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>68685ECC-57E9-46DA-8109-0BDE10B467D7</string>
 </dict>

@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( UseSystemFormatsState )</string>
+	<string>UseSystemFormatsState</string>
 	<key>name</key>
-	<string>Get( UseSystemFormatsState )</string>
+	<string>UseSystemFormatsState</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>usfs</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>7196773D-A30A-431D-9786-8346681E1C03</string>
 </dict>

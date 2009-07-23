@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( ErrorCaptureState )</string>
+	<string>ErrorCaptureState</string>
 	<key>name</key>
-	<string>Get( ErrorCaptureState )</string>
+	<string>ErrorCaptureState</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>ecs</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>22E4BDDE-F3C7-4B6F-A51E-678FD4973310</string>
 </dict>

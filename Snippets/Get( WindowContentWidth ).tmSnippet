@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( WindowContentWidth )</string>
+	<string>WindowContentWidth</string>
 	<key>name</key>
-	<string>Get( WindowContentWidth )</string>
+	<string>WindowContentWidth</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>wcw</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>F4D69B34-7C6C-4C26-81CF-4208AEE5AF9B</string>
 </dict>

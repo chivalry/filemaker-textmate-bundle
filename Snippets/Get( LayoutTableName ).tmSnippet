@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( LayoutTableName )</string>
+	<string>LayoutTableName</string>
 	<key>name</key>
-	<string>Get( LayoutTableName )</string>
+	<string>LayoutTableName</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>ltn</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>D8F92430-E94C-4D41-9B90-437DEB55358D</string>
 </dict>

@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( CustomMenuSetName )</string>
+	<string>CustomMenuSetName</string>
 	<key>name</key>
-	<string>Get( CustomMenuSetName )</string>
+	<string>CustomMenuSetName</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>cmsn</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>329B130B-A06A-44EB-BAD0-02C09BCC62AA</string>
 </dict>

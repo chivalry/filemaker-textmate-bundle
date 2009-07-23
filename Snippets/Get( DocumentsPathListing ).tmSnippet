@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( DocumentsPathListing )</string>
+	<string>DocumentsPathListing</string>
 	<key>name</key>
-	<string>Get( DocumentsPathListing )</string>
+	<string>DocumentsPathListing</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>dcpl</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>D17FC977-6155-43A7-AC73-2F1523FA2188</string>
 </dict>

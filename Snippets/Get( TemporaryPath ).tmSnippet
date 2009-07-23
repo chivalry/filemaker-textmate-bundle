@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( TemporaryPath )</string>
+	<string>TemporaryPath</string>
 	<key>name</key>
-	<string>Get( TemporaryPath )</string>
+	<string>TemporaryPath</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>tp</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>E4DB8475-2444-4405-B113-46FF1986D8E5</string>
 </dict>

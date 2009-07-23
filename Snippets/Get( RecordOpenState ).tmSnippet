@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( RecordOpenState )</string>
+	<string>RecordOpenState</string>
 	<key>name</key>
-	<string>Get( RecordOpenState )</string>
+	<string>RecordOpenState</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>ros</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>77D801D6-2CB4-447E-B038-3FE36BE07B4E</string>
 </dict>

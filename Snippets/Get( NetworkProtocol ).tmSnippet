@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( NetworkProtocol )</string>
+	<string>NetworkProtocol</string>
 	<key>name</key>
-	<string>Get( NetworkProtocol )</string>
+	<string>NetworkProtocol</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>np</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>44AFC159-8EA5-4440-82DB-548E671E45BB</string>
 </dict>

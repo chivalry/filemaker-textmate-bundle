@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( ActiveFieldTableName )</string>
+	<string>ActiveFieldTableName</string>
 	<key>name</key>
-	<string>Get( ActiveFieldTableName )</string>
+	<string>ActiveFieldTableName</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>aftn</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>091D897F-7ABE-4715-A2E6-0B77BA574F54</string>
 </dict>

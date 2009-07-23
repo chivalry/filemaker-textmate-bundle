@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( SystemDrive )</string>
+	<string>SystemDrive</string>
 	<key>name</key>
-	<string>Get( SystemDrive )</string>
+	<string>SystemDrive</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>syd</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>2A795595-15D1-49EE-BD6C-2A28F90FE0A0</string>
 </dict>

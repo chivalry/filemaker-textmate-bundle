@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Get( PrivilegeSetName )</string>
+	<string>PrivilegeSetName</string>
 	<key>name</key>
-	<string>Get( PrivilegeSetName )</string>
+	<string>PrivilegeSetName</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
 	<key>tabTrigger</key>
-	<string>psn</string>
+	<string>n</string>
 	<key>uuid</key>
 	<string>1A6B6B1B-00CF-4455-BE4D-A51033E0EE73</string>
 </dict>
