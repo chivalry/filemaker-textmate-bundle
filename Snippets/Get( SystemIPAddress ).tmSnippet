@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>SystemIPAddress</string>
+	<key>name</key>
+	<string>SystemIPAddress</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker</string>
+	<key>tabTrigger</key>
+	<string>n</string>
+	<key>uuid</key>
+	<string>147CF799-EBD5-403A-AA63-BC5755FC9419</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>AccountName</string>
+	<key>name</key>
+	<string>AccountName</string>
+	<key>scope</key>
+	<string>language.functions.get.filemaker support.function.builtin_functions.filemaker</string>
+	<key>tabTrigger</key>
+	<string>n</string>
+	<key>uuid</key>
+	<string>95BCE48B-40D8-49F4-B7E5-1F3C0D3E261A</string>
+</dict>
+</plist>
