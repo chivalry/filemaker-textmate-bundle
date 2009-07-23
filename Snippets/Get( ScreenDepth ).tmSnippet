@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>ScreenDepth</string>
+	<string>Get( ScreenDepth )</string>
 	<key>name</key>
-	<string>ScreenDepth</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( ScreenDepth )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>sd</string>
 	<key>uuid</key>
 	<string>A640377F-F0C4-417F-86B5-385999163A9B</string>
 </dict>

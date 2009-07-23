@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>RecordModificationCount</string>
+	<string>Get( RecordModificationCount )</string>
 	<key>name</key>
-	<string>RecordModificationCount</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( RecordModificationCount )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>rmc</string>
 	<key>uuid</key>
 	<string>5031D0F0-F5E7-4BAE-9620-128C2E08E17F</string>
 </dict>

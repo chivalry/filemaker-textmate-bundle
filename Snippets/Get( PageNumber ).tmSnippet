@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>PageNumber</string>
+	<string>Get( PageNumber )</string>
 	<key>name</key>
-	<string>PageNumber</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( PageNumber )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>pn</string>
 	<key>uuid</key>
 	<string>C84F3DEA-1A96-47CA-9D7C-B41E16DD4D9B</string>
 </dict>

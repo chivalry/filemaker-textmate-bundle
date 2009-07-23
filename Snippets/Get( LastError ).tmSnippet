@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>LastError</string>
+	<string>Get( LastError )</string>
 	<key>name</key>
-	<string>LastError</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( LastError )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>le</string>
 	<key>uuid</key>
 	<string>A43C9D92-5CCE-405C-8335-7C44CD195672</string>
 </dict>

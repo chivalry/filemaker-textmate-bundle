@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>PortalRowNumber</string>
+	<string>Get( PortalRowNumber )</string>
 	<key>name</key>
-	<string>PortalRowNumber</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( PortalRowNumber )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>prn</string>
 	<key>uuid</key>
 	<string>4C77B2FC-3CAE-4115-B2E9-A1599B0D291A</string>
 </dict>

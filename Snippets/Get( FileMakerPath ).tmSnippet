@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>FileMakerPath</string>
+	<string>Get( FileMakerPath )</string>
 	<key>name</key>
-	<string>FileMakerPath</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( FileMakerPath )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>fmp</string>
 	<key>uuid</key>
 	<string>1A90CBED-721B-4C7A-8EE3-3B97C79438F4</string>
 </dict>

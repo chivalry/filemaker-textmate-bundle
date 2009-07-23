@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>HostIPAddress</string>
+	<string>Get( HostIPAddress )</string>
 	<key>name</key>
-	<string>HostIPAddress</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( HostIPAddress )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>hipa</string>
 	<key>uuid</key>
 	<string>9636E21E-20B0-4714-A116-43DFC6AD4485</string>
 </dict>

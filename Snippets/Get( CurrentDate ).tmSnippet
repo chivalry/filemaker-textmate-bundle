@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>CurrentDate</string>
+	<string>Get( CurrentDate )</string>
 	<key>name</key>
-	<string>CurrentDate</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( CurrentDate )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>cd</string>
 	<key>uuid</key>
 	<string>A64239E6-AFBD-4B3E-A055-5BB773ABD3F9</string>
 </dict>

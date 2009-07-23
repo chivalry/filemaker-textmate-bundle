@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SortState</string>
+	<string>Get( SortState )</string>
 	<key>name</key>
-	<string>SortState</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( SortState )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>ss</string>
 	<key>uuid</key>
 	<string>F5C9DA8B-B730-4D42-8013-82F810260F6D</string>
 </dict>

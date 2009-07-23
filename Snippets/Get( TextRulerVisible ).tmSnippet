@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>TextRulerVisible</string>
+	<string>Get( TextRulerVisible )</string>
 	<key>name</key>
-	<string>TextRulerVisible</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( TextRulerVisible )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>trv</string>
 	<key>uuid</key>
 	<string>91B6F747-6E61-495B-9B21-E0B784590B52</string>
 </dict>

@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>StatusAreaState</string>
+	<string>Get( StatusAreaState )</string>
 	<key>name</key>
-	<string>StatusAreaState</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( StatusAreaState )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>sas</string>
 	<key>uuid</key>
 	<string>54B52420-6371-4560-B125-742ACC5D88DA</string>
 </dict>

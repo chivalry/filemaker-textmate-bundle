@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>WindowZoomLevel</string>
+	<string>Get( WindowZoomLevel )</string>
 	<key>name</key>
-	<string>WindowZoomLevel</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( WindowZoomLevel )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>wzl</string>
 	<key>uuid</key>
 	<string>6FE143EF-AB31-486D-80E1-72516FF348EF</string>
 </dict>

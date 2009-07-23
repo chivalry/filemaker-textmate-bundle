@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>ApplicationVersion</string>
+	<string>Get( ApplicationVersion )</string>
 	<key>name</key>
-	<string>ApplicationVersion</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( ApplicationVersion )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>av</string>
 	<key>uuid</key>
 	<string>30391BCF-5723-401D-8A0E-BC2E045F32C3</string>
 </dict>

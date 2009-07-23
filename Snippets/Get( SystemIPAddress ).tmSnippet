@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>SystemIPAddress</string>
+	<string>Get( SystemIPAddress )</string>
 	<key>name</key>
-	<string>SystemIPAddress</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( SystemIPAddress )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>sipa</string>
 	<key>uuid</key>
 	<string>147CF799-EBD5-403A-AA63-BC5755FC9419</string>
 </dict>

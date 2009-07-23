@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>FileName</string>
+	<string>Get( FileName )</string>
 	<key>name</key>
-	<string>FileName</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( FileName )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>fn</string>
 	<key>uuid</key>
 	<string>3575431A-5A79-41EB-8FE6-CB69E407DF80</string>
 </dict>

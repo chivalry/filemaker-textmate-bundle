@@ -3,13 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>AllowAbortState</string>
+	<string>Get( AllowAbortState )</string>
 	<key>name</key>
-	<string>AllowAbortState</string>
-	<key>scope</key>
-	<string>language.functions.get.filemaker</string>
+	<string>Get( AllowAbortState )</string>
 	<key>tabTrigger</key>
-	<string>n</string>
+	<string>aas</string>
 	<key>uuid</key>
 	<string>9B17CF97-A07B-492F-999E-18DD27435CFC</string>
 </dict>
