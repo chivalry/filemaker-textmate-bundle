@@ -1,0 +1,1 @@
+This text mate bundle will offer code syntax highlighting, snippets and commands for working with FileMaker calculations within TextMate. Snippets are included for all of the built-in FileMaker functions as well as numerous popular plugin functions.
